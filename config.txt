@@ -31,11 +31,14 @@ $include terry/config.txt
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
 # STATIONNAME Space Station 13
 
+## Uncomment this to put all servers on the BYOND hub.
+#HUB
+
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 240
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
-ROUND_END_COUNTDOWN 90
+ROUND_END_COUNTDOWN 60
 
 ## Comment this out if you want to use the SQL based admin system, the legacy system uses admins.txt.
 ## You need to set up your database to use the SQL based system.
@@ -60,26 +63,26 @@ ROUND_END_COUNTDOWN 90
 ## REQUIRES the database set up to work. Keep it hashed if you don't have a database set up.
 ## NOTE: If you have just set-up the database keep this DISABLED, as player age is determined from the first time they connect to the server with the database up. If you just set it up, it means
 ## you have noone older than 0 days, since noone has been logged yet. Only turn this on once you have had the database up for 30 days.
-#USE_AGE_RESTRICTION_FOR_JOBS
+USE_AGE_RESTRICTION_FOR_JOBS
 
 ## Uncomment this to have the job system use the player's account creation date, rather than the when they first joined the server for job timers.
-#USE_ACCOUNT_AGE_FOR_JOBS
+USE_ACCOUNT_AGE_FOR_JOBS
 
 ## Unhash this to track player playtime in the database. Requires database to be enabled.
 USE_EXP_TRACKING
 ## Unhash this to enable playtime requirements for head jobs.
-#USE_EXP_RESTRICTIONS_HEADS
+USE_EXP_RESTRICTIONS_HEADS
 ## Unhash this to override head jobs' playtime requirements with this number of hours.
 ## Leave this commented out to use the values defined in the job datums. Values in the datums are stored as minutes.
-USE_EXP_RESTRICTIONS_HEADS_HOURS 3
+#USE_EXP_RESTRICTIONS_HEADS_HOURS 3
 ## Unhash this to change head jobs' playtime requirements so that they're based on department playtime, rather than crew playtime.
 USE_EXP_RESTRICTIONS_HEADS_DEPARTMENT
 ## Unhash this to enable playtime requirements for certain non-head jobs, like Engineer and Scientist.
 USE_EXP_RESTRICTIONS_OTHER
 ## Allows admins to bypass job playtime requirements.
-USE_EXP_RESTRICTIONS_ADMIN_BYPASS
+#USE_EXP_RESTRICTIONS_ADMIN_BYPASS
 ## Unhash this to have intern tags automatically added to ID cards for station roles depending on the living hours of the player holding them.
-#USE_LOW_LIVING_HOUR_INTERN
+USE_LOW_LIVING_HOUR_INTERN
 ## If USE_LOW_LIVING_HOUR_INTERN is unhashed, players under this number of living hours have [Intern] added to their ID card. If this isn't set, uses USE_EXP_RESTRICTIONS_HEADS_HOURS instead. If that isn't set, it finally defaults to a hardcoded fallback of 15 hours.
 #USE_LOW_LIVING_HOUR_INTERN_HOURS 50
 
@@ -87,13 +90,13 @@ USE_EXP_RESTRICTIONS_ADMIN_BYPASS
 PICTURE_LOGGING_CAMERA
 
 ## period of time in seconds for players to be considered inactive
-# INACTIVITY_PERIOD 300
+INACTIVITY_PERIOD 300
 
 ## period of time in seconds for players to be considered afk and kickable
-# AFK_PERIOD 600
+AFK_PERIOD 600
 
 ## disconnect players who are considered afk
-# KICK_INACTIVE
+KICK_INACTIVE
 
 ## Comment this out to stop admins being able to choose their personal ooccolor
 ALLOW_ADMIN_OOCCOLOR
@@ -120,7 +123,7 @@ MAX_ROCKING_VOTES 1
 VOTE_DELAY 6000
 
 ## time period (deciseconds) which voting session will last (default 1 minute)
-VOTE_PERIOD 600
+VOTE_PERIOD 900
 
 ## prevents dead players from voting or starting votes
 # NO_DEAD_VOTE
@@ -235,7 +238,7 @@ REQUEST_INTERNET_ALLOWED youtube\.com\/watch?v=,youtu\.be\/,soundcloud\.com\/,ba
 ## Uncomment this to forbid admins from possessing the singularity.
 ## It is intentional that Admins can edit this config, as its meant to serve as a deterrent/warning for admin abuse.
 ## Add a `@` in front to lock admins from editing this.
-#FORBID_SINGULO_POSSESSION
+@FORBID_SINGULO_POSSESSION
 
 ## Uncomment to give admins the ability to send a maptext popup to players.
 ## Only fires when an admin requests it, not every ahelp.
@@ -261,7 +264,7 @@ TICKLAG 0.5
 #AUTOMUTE_ON
 
 ## Uncomment this to let players see their own notes (they can still be set by admins only)
-#SEE_OWN_NOTES
+SEE_OWN_NOTES
 
 ### Comment these two out to prevent notes fading out over time for admins.
 ## Notes older then this will start fading out.
@@ -297,7 +300,7 @@ BYOND_MEMBER_BYPASS_POPCAP
 
 ## Notify admins when a new player connects for the first x days a player's been around. (0 for first connection only, -1 for never)
 ##	Requires database
-NOTIFY_NEW_PLAYER_AGE 0
+NOTIFY_NEW_PLAYER_AGE 1
 
 ## Notify admins when a player connects if their byond account was created in the last X days
 ## Requires database
@@ -333,10 +336,10 @@ NOTIFY_NEW_PLAYER_ACCOUNT_AGE 1
 #PANIC_SERVER_NAME [Put the name here]
 
 ## Uncomment to have the changelog file automatically open when a user connects and hasn't seen the latest changelog
-#AGGRESSIVE_CHANGELOG
+AGGRESSIVE_CHANGELOG
 
 ## Comment this out if you've used the mass conversion sql proc for notes or want to stop converting notes
-AUTOCONVERT_NOTES
+#AUTOCONVERT_NOTES
 
 ## Comment this out to stop admin messages sent anytime an admin disconnects from a round in play, you can edit the messages in admin.dm
 ANNOUNCE_ADMIN_LOGOUT
@@ -360,9 +363,8 @@ AUTOADMIN_RANK Game Master
 ## Uncomment to automatically give that admin rank to all players
 #AUTOADMIN
 
-
 ## Uncomment to automatically deadmin players when the game starts.
-#AUTO_DEADMIN_PLAYERS
+AUTO_DEADMIN_PLAYERS
 
 ## Uncomment to automatically deadmin antagonists when they gain the role.
 #AUTO_DEADMIN_ANTAGONISTS
@@ -444,7 +446,7 @@ MINUTE_CLICK_LIMIT 400
 ##The Master Controller(MC) is the primary system controlling timed tasks and events in SS13 (lobby timer, game checks, lighting updates, atmos, etc)
 ##Default base MC tick rate (1 = process every "byond tick" (see: tick_lag/fps config settings), 2 = process every 2 byond ticks, etc)
 ##	Setting this to 0 will prevent the Master Controller from ticking
-BASE_MC_TICK_RATE 1
+BASE_MC_TICK_RATE 0.75
 
 ##High population MC tick rate
 ##	Byond rounds timer values UP, but the tick rate is modified with heuristics during lag spites so setting this to something like 2
@@ -463,8 +465,7 @@ DISABLE_HIGH_POP_MC_MODE_AMOUNT 60
 #RESUME_AFTER_INITIALIZATIONS
 
 ## Uncomment to set the number of /world/Reboot()s before the DreamDaemon restarts itself. 0 means restart every round. Requires tgstation server tools.
-#ROUNDS_UNTIL_HARD_RESTART 10
-
+ROUNDS_UNTIL_HARD_RESTART 2
 
 ##Default view size, in tiles.
 ##	By default, this is 15x15, which gets simplified to 7 by byond
@@ -477,7 +478,6 @@ DEFAULT_VIEW 19x15
 ## The alternative square viewport size if you're using a widescreen view size
 ## You probably shouldn't ever be changing this, but it's here if you want to.
 DEFAULT_VIEW_SQUARE 15x15
-
 
 ## Enable automatic profiling - Byond 513.1506 and newer only.
 #AUTO_PROFILE
