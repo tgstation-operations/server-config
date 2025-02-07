@@ -528,18 +528,25 @@ MAXFINE 2000
 ## Configuration for station traits of each type.
 ## The first value (key) is the budget, or the space available to use for station traits of that type. Some take more space than others.
 ## The second value (assoc) is the weight associated with said budget compared to the rest for that type.
-POSITIVE_STATION_TRAITS 0 80
-POSITIVE_STATION_TRAITS 1 16
+
+## Comment from MrMelbert on current numbers below:
+## Here are some values I completely pulled off the top of my head.
+## I normalized them to 100 so you can easily see at a glance the probability of each.
+## With these odds, there is a 33.5% chance of any station trait rolling on any given round.
+## It does, however, result in like, a 5% chance of getting high budget, which means rolling rare traits will become a lot, lot rarer.
+
+POSITIVE_STATION_TRAITS 0 90
+POSITIVE_STATION_TRAITS 1 6
 POSITIVE_STATION_TRAITS 2 3
 POSITIVE_STATION_TRAITS 3 1
 
-NEUTRAL_STATION_TRAITS 0 80
-NEUTRAL_STATION_TRAITS 1 16
-NEUTRAL_STATION_TRAITS 2 3
-NEUTRAL_STATION_TRAITS 2.5 1
+NEUTRAL_STATION_TRAITS 0 82
+NEUTRAL_STATION_TRAITS 1 8
+NEUTRAL_STATION_TRAITS 2 6
+NEUTRAL_STATION_TRAITS 2.5 4
 
-NEGATIVE_STATION_TRAITS 0 80
-NEGATIVE_STATION_TRAITS 1 16
+NEGATIVE_STATION_TRAITS 0 90
+NEGATIVE_STATION_TRAITS 1 6
 NEGATIVE_STATION_TRAITS 2 3
 NEGATIVE_STATION_TRAITS 3 1
 
