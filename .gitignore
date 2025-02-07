@@ -2,12 +2,14 @@
 word_filter.toml
 # Secret key within for cross-server communication
 comms.txt
-# Explicitly allow comms.txt if it's in a subdir, for server specific bits
-!*/comms.txt
 # Authentication details for the database within
 dbconfig.txt
 # Secrets used to connect to the TTS server
 tts_secrets.txt
+
+# Explicitly allow certain files if they're in a subdir, for server specific bits
+!*/comms.txt
+!*/dbconfig.txt
 # Copyright
 **/title_music
 **/reboot_themes

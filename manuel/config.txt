@@ -1,7 +1,8 @@
 # You can use the "$include" directive to split your configs however you want
 
-$import resources.txt
-$import comms.txt
+$include resources.txt
+$include comms.txt
+$include dbconfig.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
@@ -12,7 +13,7 @@ $import comms.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME [US-Central] /tg/station Manuel
+SERVERNAME [US-Central] [MRP] /tg/station Manuel
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 SERVERSQLNAME manuel

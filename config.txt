@@ -9,7 +9,11 @@ $include interviews.txt
 $include lua.txt
 $include auxtools.txt
 $include map_vote.txt
+
+# Includes for files symlinked from agenix secret files
 $include tts_secrets.txt
+$include comms.txt
+$include dbconfig.txt
 
 # Includes for modular server-specific stuff
 $include manuel/config.txt
