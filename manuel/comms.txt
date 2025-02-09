@@ -1,5 +1,5 @@
 ## World address and port for server recieving cross server messages
-CROSS_SERVER Terry byond://terry.tgstation13.org:3337
+CROSS_SERVER Terry byond://terry.tgstation13.org:3336
 CROSS_SERVER Sybil byond://sybil.tgstation13.org:1337
 
 ## Name that the server calls itself in communications
