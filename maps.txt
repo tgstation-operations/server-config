@@ -17,7 +17,8 @@ endmap
 
 map birdshot
 	#default
-	maxplayers 66
+	maxplayers 75
+	minplayers 30
 	votable
 endmap
 
@@ -38,17 +39,17 @@ map metastation
 endmap
 
 map tramstation
-	#minplayers 35
+	minplayers 15
 	votable
 endmap
 
 map nebulastation
-	#minplayers 35
+	minplayers 15
 	votable
 endmap
 
 map wawastation
-	#minplayers 40
+	minplayers 15
 	votable
 endmap
 
