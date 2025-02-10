@@ -1,5 +1,27 @@
 <!-- Most valid html will work in here, but you have to use URL links for images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<body link="blue">
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<h1 style="color:black;">Welcome to /tg/station's SS13!</h1>
+
+<h2 style="color:black;">Please use the following links for your information:</h2>
+
+<p style="color:black;">To avoid getting banned, make sure you read the <a href="https://paradisestation.org/tgwiki2/index.php?title=Rules"><b><u>Rules</b></u></a></p>
+
+<p style="color:black;">For a host of useful information, take a look at the <a href="https://paradisestation.org/tgwiki2/index.php?title=Main_Page"><b><u>Wiki</b></u></a></p>
+
+<p style="color:black;">You can find the status of all of servers at our <a href="https://tgstation13.org/"><b><u>Homepage</b></u></a></p>
+
+<p style ="color:black;">You can join us on our Discord server <a href="https://discord.gg/tg13"><b><u>by clicking here.</b></u></a></p>
+
+<h2 style="color:red;">The following trial admin review threads are currently active:</h2>
+
+<h4>None</h4>
+
+<h3 style="color:black;"> Notice Board: </h3>
+
+<font size="6"><p style="color:red;"><b>• HEY! LISTEN! THE RULES ARE DIFFERENT HERE!</p></font>
+<p style="color:blue;"><b>You're currently on the /tg/station roleplay server. This is intended to be a higher-roleplay environment than the other servers, and more importantly there are different rules to abide by here. If roleplaying isn't your style, you can use the Server Hop command to go to any other server, which all still operate on the regular rules. Have fun!</p>
+<p style="color:red;"><a href="https://paradisestation.org/tgwiki2/index.php?title=Rules#Main_Roleplay_Rules"><b>Click here to read the roleplaying rules.</a></b></p>
+
+<p style="color:red;"><b>• The forums are still down pending being restored. Operations aims to have them up by the Headmin Elections in March</b></p>
