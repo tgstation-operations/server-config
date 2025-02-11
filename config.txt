@@ -13,10 +13,7 @@ $include tts_secrets.txt
 $include comms.txt
 $include dbconfig.txt
 
-# Includes for modular server-specific stuff
-$include manuel/config.txt
-$include sybil/config.txt
-$include terry/config.txt
+# Includes for server-specific configs (sybil, terry and manuel) are located at the end of the file
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
@@ -609,3 +606,8 @@ UPLOAD_LIMIT_ADMIN 5242880
 
 ## Uncomment to allow admins with +DEBUG to queue the next round to run the byond-tracy profiler.
 #ALLOW_TRACY_QUEUE
+
+# Includes for modular server-specific stuff
+$include manuel/config.txt
+$include sybil/config.txt
+$include terry/config.txt
