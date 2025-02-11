@@ -425,13 +425,13 @@ MINUTE_CLICK_LIMIT 400
 ## i.e. CHANNEL_ANNOUNCE_NEW_GAME chat_channel_tag
 
 ## Which channel will have a message about a new game starting, message includes the station name.
-#CHANNEL_ANNOUNCE_NEW_GAME
+CHANNEL_ANNOUNCE_NEW_GAME tg-general
 
 ## Which channel will have a message about a new game starting, message includes the round ID of the game that has just ended.
-#CHANNEL_ANNOUNCE_END_GAME
+CHANNEL_ANNOUNCE_END_GAME tg-general
 
 ## Ping users who use the `notify` command when a new game starts.
-#CHAT_NEW_GAME_NOTIFICATIONS
+CHAT_NEW_GAME_NOTIFICATIONS tg-general
 
 ## Uncomment this to validate admin commands from discord by requiring they come from linked discord accounts and that those discord accounts link to a ckey with the right admin permissions.
 # SECURE_CHAT_COMMANDS
