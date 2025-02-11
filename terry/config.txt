@@ -21,6 +21,15 @@ SERVERSQLNAME terry
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
 
+## Which channel will have a message about a new game starting, message includes the station name.
+CHANNEL_ANNOUNCE_NEW_GAME tg-general
+
+## Which channel will have a message about a new game starting, message includes the round ID of the game that has just ended.
+CHANNEL_ANNOUNCE_END_GAME tg-general
+
+## Ping users who use the `notify` command when a new game starts.
+CHAT_NEW_GAME_NOTIFICATIONS tg-general
+
 ## The address shown for the game server in the TGS check command
 PUBLIC_ADDRESS terry.tgstation13.org:3336
 
