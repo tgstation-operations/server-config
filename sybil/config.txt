@@ -21,7 +21,6 @@ SERVERSQLNAME sybil
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
 
-
 ## Which channel will have a message about a new game starting, message includes the station name.
 CHANNEL_ANNOUNCE_NEW_GAME tg-general
 
