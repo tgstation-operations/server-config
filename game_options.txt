@@ -521,5 +521,8 @@ NEGATIVE_STATION_TRAITS 3 1
 # If higher than 1, it'll lean toward common spawns even more.
 #RANDOM_LOOT_WEIGHT_MODIFIER 1
 
-# TTS
-#TTS_HTTP_URL http://192.168.4.91:5002
+## CUSTOM SHUTTLES CONFIG ##
+
+## Custom shuttle spam prevention. Changine these numbers allows you to change the maxsize and amount of custom shuttles.
+MAX_SHUTTLE_COUNT 6
+MAX_SHUTTLE_SIZE 300
