@@ -24,6 +24,8 @@ HUB
 ## The address shown for the game server in the TGS check command
 PUBLIC_ADDRESS manuel.tgstation13.org:1447
 
+## The channel announcement configs below do not override the values set in ../config.txt, see the original comment for further explanation
+
 ## Which channel will have a message about a new game starting, message includes the station name.
 CHANNEL_ANNOUNCE_NEW_GAME manuelcord-manuel-roundend
 
