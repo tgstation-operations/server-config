@@ -539,7 +539,8 @@ URGENT_AHELP_COOLDOWN 300
 ## Sets an MOTD of the server.
 ## You can use this multiple times, and the MOTDs will be appended in order.
 ## Based on config directory, so "motd.txt" points to "config/motd.txt"
-MOTD motd.txt
+# these are set in the individual server configs
+#MOTD motd.txt
 #MOTD motd_extra.txt
 
 ## Assets can opt-in to caching their results into `cache/`.
