@@ -520,7 +520,7 @@ DRIFT_PROFILE_DELAY 150
 URGENT_AHELP_COOLDOWN 300
 
 ## The message that is sent to the discord if an urgent ahelp is sent. Useful for sending a role ping.
-#URGENT_AHELP_MESSAGE
+URGENT_AHELP_MESSAGE <@&492378866736693248>
 
 ## See above, but for non-urgent ahelps.
 #AHELP_MESSAGE
