@@ -34,52 +34,42 @@
 #EVERYTHING = Simply gives you everything without having to type every flag.
 #@ = special keyword for the current permission type that adds all the keywords that the preceding rank has of the same type.
 
-Name = Admin Observer
-Include =
-Exclude = AUTOADMIN
-Edit =
+# Foreword from Timberpoes on why I made this how it is:
+# If for whatever reason the DB goes down, we revert back to admins.txt for admins.
 
-Name = Moderator
-Include = ADMIN
+# By default the admins.txt contains only headmins, headcoders and host(s).
+
+# We should try to make sure this file contains the ranks of all people in admins.txt, as if dbranks goes down
+# then having admins.txt entries is pointless with no permissions.
+
+# I don't know if stuff still works with our snowflakey XYZ+ZYX roles, so I included the main ones here as overrides.
+
+# Headcoder headmin.txt rank
+Name = HeadCoder
+Include = @ BUILDMODE ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDIT SOUND SPAWN AUTOLOGIN
 Exclude =
 Edit =
 
-Name = Admin Candidate
-Include = @
+# Mothblock's admin.txt rank
+Name = GameAdmin+HeadCoder
+Include = @ BUILDMODE ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDIT SOUND SPAWN AUTOLOGIN
 Exclude =
 Edit =
 
-Name = Trial Admin
-Include = @ SPAWN VAREDIT BAN
-Exclude =
-Edit =
-
-Name = Badmin
-Include = @ POSSESS POLL BUILD SERVER FUN
-Exclude =
-Edit =
-
-Name = Game Admin
-Include = @ STEALTH SOUND DEBUG
-Exclude =
-Edit =
-
-Name = Game Master
+# Headmin/Maintainer admin.txt rank
+Name = HeadAdmin+Maintainer
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
 
-Name = Lazy Master
+# Headmin admin.txt rank
+Name = HeadAdmin
 Include = EVERYTHING
-Exclude = AUTOADMIN
+Exclude =
 Edit = EVERYTHING
 
+# Host admin.txt rank
 Name = Host
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
-
-Name = Coder
-Include = DEBUG VAREDIT SERVER SPAWN POLL
-Exclude = AUTOADMIN
-Edit =
