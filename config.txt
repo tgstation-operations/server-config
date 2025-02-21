@@ -358,7 +358,7 @@ AUTOADMIN_RANK Game Master
 ## Uncomment to automatically give that admin rank to all players
 #AUTOADMIN
 
-## Uncomment to automatically deadmin players when the game starts.
+## Uncomment to automatically deadmin anyone, any time they enter any mob, every single time. (Very annoying, will result in a lot of headmin pings on Discord if you enable this)
 #AUTO_DEADMIN_PLAYERS
 
 ## Uncomment to automatically deadmin players when they click to ready up or join game. For latejoining, does it before they pick a role because it's best done early to limit metainfo.
