@@ -29,6 +29,12 @@ HUB
 ## The address shown for the game server in the TGS check command
 PUBLIC_ADDRESS sybil.tgstation13.org:1337
 
+## The URL for the pfp of the webhook
+ADMINHELP_WEBHOOK_PFP https://cdn.discordapp.com/avatars/1331176361234268201/fecef27496b0b9c467f2f357f70aab97.webp
+
+## The name of the webhook
+ADMINHELP_WEBHOOK_NAME Madame Sybil
+
 ## Sets an MOTD of the server.
 ## You can use this multiple times, and the MOTDs will be appended in order.
 ## Based on config directory, so "motd.txt" points to "config/motd.txt"
