@@ -27,8 +27,8 @@
 
     qdel(query_set_token)
 
-    to_chat(src, {"Now opening a window to login to your forum account, Your account will automatically be linked the moment you log in. If this window doesn't load, Please go to <a href="https://tgstation13.org/phpBB/linkbyondaccount.php?token=[token]">https://tgstation13.org/phpBB/linkbyondaccount.php?token=[token]</a> This link will expire in 30 minutes."})
-    src << link("https://tgstation13.org/phpBB/linkbyondaccount.php?token=[token]")
+    to_chat(src, {"Now opening a window to login to your forum account, Your account will automatically be linked the moment you log in. If this window doesn't load, Please go to <a href="https://forums.tgstation13.org/linkbyondaccount.php?token=[token]">https://forums.tgstation13.org/linkbyondaccount.php?token=[token]</a> This link will expire in 30 minutes."})
+    src << link("https://forums.tgstation13.org/linkbyondaccount.php?token=[token]")
 
 /client/proc/generate_account_link_token()
     var/static/entropychain
