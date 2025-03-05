@@ -1,8 +1,8 @@
 # You can use the "$include" directive to split your configs however you want
 
-$include manuel/resources.txt
-$include manuel/comms.txt
-$include manuel/dbconfig.txt
+$include resources.txt
+$include comms.txt
+$include dbconfig.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
