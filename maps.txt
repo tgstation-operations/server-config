@@ -44,7 +44,7 @@ map tramstation
 endmap
 
 map nebulastation
-	minplayers 15
+	minplayers 45
 	votable
 endmap
 
