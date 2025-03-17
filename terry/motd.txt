@@ -20,4 +20,4 @@
 
 <h3 style="color:black;"> Notice Board: </h3>
 
-<p style="color:red;"><b>• The forums have been restored! The Headmin Elections are underway here: <a href="https://forums.tgstation13.org/index.php"></b></p>
+<p style="color:red;"><b>• The forums have been restored! The Headmin Elections are <a href="https://forums.tgstation13.org/index.php"><b><u>underway here.</b></u></a></p>
