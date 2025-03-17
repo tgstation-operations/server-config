@@ -3,11 +3,12 @@
 	"Roundstart": {
 		"Traitors": {
 			"cost": 10,
+			"minimum_players": 10,
 			"scaling_cost": 10,
 			"requirements": [
-				10,
-				10,
-				10,
+				101,
+				50,
+				25,
 				10,
 				10,
 				10,
@@ -18,7 +19,20 @@
 			]
 		},
 		"Blood Brothers": {	
-			"cost": 10
+			"cost": 10,
+			"minimum_players": 10,
+			"requirements": [
+				101,
+				50,
+				25,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
 		},
 		"Blood Cult": {
 			"cost": 20,
@@ -52,11 +66,37 @@
 		},
 		"Changelings": {
 			"cost": 15,
-			"scaling_cost": 15
+			"scaling_cost": 15,
+			"minimum_players": 10,
+			"requirements": [
+				101,
+				75,
+				50,
+				25,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
 		},
 		"Heretics": {
 			"cost": 15,
-			"scaling_cost": 10
+			"scaling_cost": 10,
+			"minimum_players": 10,
+			"requirements": [
+				101,
+				75,
+				50,
+				25,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
 		},
 		"Wizard": {
 			"cost": 20
@@ -82,9 +122,9 @@
 			"scaling_cost": 5,
 			"requirements": [
 				101,
-				75,
 				50,
 				25,
+				10,
 				10,
 				10,
 				10,
