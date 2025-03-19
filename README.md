@@ -1,6 +1,6 @@
 # /tg/station Server Configs
 
-This repository serves as a source of truth for the configuration used on the [/tg/station](https://github.com/tgstation/tgstation) game servers. Config for [TGMC](https://github.com/tgstation/TerraGov-Marine-Corps) can be found [here]().
+This repository serves as a source of truth for the configuration used on the [/tg/station](https://github.com/tgstation/tgstation) game servers. Config for [TGMC](https://github.com/tgstation/TerraGov-Marine-Corps) can be found [here](https://github.com/tgstation-operations/server-config-tgmc).
 
 ## Directory Structure
 Top level configs apply to all servers.
