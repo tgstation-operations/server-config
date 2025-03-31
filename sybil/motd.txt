@@ -16,8 +16,6 @@
 
 <h2 style="color:red;">The following trial admin review threads are currently active:</h2>
 
-<h4>None</h4>
-
 <p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38251"><b>BlitzArde</a></b></p>
 
 <p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38450"><b>Meow12</a></b></p>
