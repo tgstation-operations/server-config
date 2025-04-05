@@ -19,7 +19,8 @@ map birdshot
 	#default
 	maxplayers 75
 	minplayers 30
-	votable
+	#votable
+	disabled
 endmap
 
 map deltastation
