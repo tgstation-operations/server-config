@@ -24,7 +24,7 @@ map birdshot
 endmap
 
 map deltastation
-	#minplayers 50
+	minplayers 50
 	votable
 endmap
 
