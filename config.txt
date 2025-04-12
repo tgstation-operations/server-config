@@ -528,7 +528,7 @@ URGENT_AHELP_MESSAGE <@&492378866736693248>
 #AHELP_MESSAGE
 
 ## The message that the player receives whenever prompted whether they want to send an urgent ahelp or not.
-#URGENT_AHELP_USER_PROMPT This'll ping the admins!
+URGENT_AHELP_USER_PROMPT There are no admins currently on. The button below will notify admins on our Discord server about your ahelp. Do not press the button below if your ahelp is a joke, a request or a question.
 
 ## The link that the title of a ticket can link to.
 ## If not set, it will link nowhere
