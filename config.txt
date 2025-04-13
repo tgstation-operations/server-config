@@ -177,7 +177,7 @@ IPINTEL_REJECT_BAD
 #USEWHITELIST
 
 ## forum address
-FORUMURL https://forums.tgstation13.org/
+FORUMURL https://forums.tgstation13.org
 
 ## Wiki address
 WIKIURL https://wiki.tgstation13.org
