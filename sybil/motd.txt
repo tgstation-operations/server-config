@@ -18,6 +18,4 @@
 
 <h4>None</h4>
 
-<h3 style="color:black;"> Notice Board: </h3>
-
-<p style="color:red;"><b>• The Headmin Elections are finished! You can see <a href="https://forums.tgstation13.org/viewtopic.php?p=773585#p773585"><b><u>the results here.</b></u></a></p>
+<!-- <h3 style="color:black;"> Notice Board: </h3> -->
