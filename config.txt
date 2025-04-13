@@ -177,13 +177,13 @@ IPINTEL_REJECT_BAD
 #USEWHITELIST
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+FORUMURL https://forums.tgstation13.org
 
 ## Wiki address
-WIKIURL https://paradisestation.org/tgwiki2/
+WIKIURL https://wiki.tgstation13.org
 
 ## Rules address
-RULESURL https://paradisestation.org/tgwiki2/index.php?title=Rules
+RULESURL https://wiki.tgstation13.org/Rules
 
 ## Github address
 GITHUBURL https://www.github.com/tgstation/tgstation
