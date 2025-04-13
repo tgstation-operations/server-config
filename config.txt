@@ -177,10 +177,10 @@ IPINTEL_REJECT_BAD
 #USEWHITELIST
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+FORUMURL https://forums.tgstation13.org/
 
 ## Wiki address
-WIKIURL https://wiki.tgstation13.org/Main_Page
+WIKIURL https://wiki.tgstation13.org
 
 ## Rules address
 RULESURL https://wiki.tgstation13.org/Rules
