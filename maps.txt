@@ -15,11 +15,17 @@ endmap
 
 # Production-level maps.
 
+map catwalkstation
+	minplayers 25
+	votable
+endmap
+
 map birdshot
 	#default
 	maxplayers 75
 	minplayers 30
-	votable
+	#votable
+	disabled
 endmap
 
 map deltastation

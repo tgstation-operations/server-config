@@ -1,0 +1,215 @@
+{
+	"Dynamic": {},
+	"Roundstart": {
+		"Traitors": {
+			"cost": 10,
+			"minimum_players": 10,
+			"scaling_cost": 10,
+			"requirements": [
+				101,
+				50,
+				15,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
+		},
+		"Blood Brothers": {	
+			"cost": 10,
+			"minimum_players": 10,
+			"requirements": [
+				101,
+				50,
+				20,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
+		},
+		"Blood Cult": {
+			"cost": 20,
+			"requirements": [
+				101,
+				101,
+				90,
+				70,
+				50,
+				30,
+				10,
+				10,
+				10,
+				10
+			]
+		},
+		"Nuclear Emergency": {
+			"cost": 20,
+			"requirements": [
+				101,
+				101,
+				90,
+				80,
+				60,
+				40,
+				30,
+				20,
+				10,
+				10
+			]
+		},
+		"Changelings": {
+			"cost": 15,
+			"scaling_cost": 15,
+			"minimum_players": 10,
+			"requirements": [
+				101,
+				75,
+				50,
+				25,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
+		},
+		"Heretics": {
+			"cost": 15,
+			"scaling_cost": 10,
+			"minimum_players": 10,
+			"requirements": [
+				101,
+				75,
+				50,
+				25,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
+		},
+		"Wizard": {
+			"cost": 20
+		},
+		"Revolution": {
+			"cost": 20,
+			"weight": 2,
+			"requirements": [
+				101,
+				101,
+				90,
+				70,
+				50,
+				30,
+				10,
+				10,
+				10,
+				10
+			]
+		},
+		"Spies": {
+			"cost": 10,
+			"scaling_cost": 5,
+			"requirements": [
+				101,
+				50,
+				15,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10,
+				10
+			]
+		}
+	},
+	"Midround": {
+		"Space Dragon": {
+			"cost": 10
+		},
+		"Blob": {
+			"cost": 10
+		},
+		"Blob Infection": {
+			"cost": 10
+		},
+		"Syndicate Sleeper Agent": {
+			"cost": 5,
+			"minimum_players": 10
+		},
+		"Malfunctioning AI": {
+			"cost": 10
+		},
+		"Wizard": {
+			"cost": 20
+		},
+		"Nuclear Assault": {
+			"cost": 20
+		},
+		"Space Ninja": {
+			"cost": 10
+		},
+		"Nightmare": {
+			"cost": 5
+		},
+		"Voidwalker": {
+			"cost": 5
+		},
+		"Alien Infestation": {
+			"cost": 20
+		},
+		"Abductors": {
+			"cost": 10
+		},
+		"Space Changeling": {
+			"cost": 5,
+			"minimum_players": 10
+		},
+		"Paradox Clone": {
+			"cost": 5
+		},
+		"Space Pirates": {
+			"cost": 5
+		},
+		"Revenant": {
+			"cost": 5
+		},
+		"Spiders": {
+			"cost": 15
+		},
+		"Dangerous Space Pirates": {
+			"cost": 10
+		},
+		"Obsessed": {
+			"cost": 5
+		}
+	},
+	"Latejoin": {
+		"Syndicate Infiltrator": {
+			"cost": 5,
+			"minimum_players": 10
+		},
+		"Provocateur": {
+			"cost": 20
+		},
+		"Heretic Smuggler": {
+			"cost": 10,
+			"minimum_players": 10
+		},
+		"Stowaway Changeling": {
+			"cost": 10,
+			"minimum_players": 10
+		}
+	}
+}

@@ -177,13 +177,13 @@ IPINTEL_REJECT_BAD
 #USEWHITELIST
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+FORUMURL https://forums.tgstation13.org
 
 ## Wiki address
-WIKIURL https://paradisestation.org/tgwiki2/
+WIKIURL https://wiki.tgstation13.org
 
 ## Rules address
-RULESURL https://paradisestation.org/tgwiki2/Rules
+RULESURL https://wiki.tgstation13.org/Rules
 
 ## Github address
 GITHUBURL https://www.github.com/tgstation/tgstation
@@ -203,7 +203,7 @@ GITHUBURL https://www.github.com/tgstation/tgstation
 # GAMELOGURL
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://justanotherday.example.com
+BANAPPEALS https://forums.tgstation13.org/viewforum.php?f=7
 
 ## System command that invokes yt-dlp, used by Play Internet Sound.
 ## You can install yt-dlp with
@@ -379,14 +379,15 @@ AUTO_DEADMIN_ON_READY_OR_LATEJOIN
 ## These trigger for any version below (non-inclusive) the given version, so 510 triggers on 509 or lower.
 ## These messages will be followed by one stating the clients current version and the required version for clarity.
 ## If CLIENT_WARN_POPUP is uncommented a popup window with the message will be displayed instead
-#CLIENT_WARN_VERSION 515
-#CLIENT_WARN_BUILD 1635
+#CLIENT_WARN_VERSION 516
+#CLIENT_WARN_BUILD 1659
 #CLIENT_WARN_POPUP
-#CLIENT_WARN_MESSAGE Byond released 515 as the stable release. This comes bundled with a host of niceties, including image generation for UIs and :: operators.
-CLIENT_ERROR_VERSION 515
+
+CLIENT_ERROR_VERSION 516
+CLIENT_ERROR_BUILD 1659
+
+CLIENT_WARN_MESSAGE BYOND released 516 as the stable release. This has changed the underlying engine used to display the browser from Trident to WebView. Support for Trident will very quickly become outdated and broken.
 CLIENT_ERROR_MESSAGE Your version of byond is not supported. Please upgrade.
-## The minimum build needed for joining the server.
-CLIENT_ERROR_BUILD 1590
 
 ## TOPIC RATE LIMITING
 ## This allows you to limit how many topic calls (clicking on an interface window) the client can do in any given game second and/or game minute.
@@ -527,7 +528,7 @@ URGENT_AHELP_MESSAGE <@&492378866736693248>
 #AHELP_MESSAGE
 
 ## The message that the player receives whenever prompted whether they want to send an urgent ahelp or not.
-#URGENT_AHELP_USER_PROMPT This'll ping the admins!
+URGENT_AHELP_USER_PROMPT There are no admins currently on. The button below will notify admins on our Discord server about your ahelp. Do not press the button below if your ahelp is a joke, a request or a question.
 
 ## The link that the title of a ticket can link to.
 ## If not set, it will link nowhere
