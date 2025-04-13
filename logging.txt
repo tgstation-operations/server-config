@@ -33,7 +33,7 @@ LOG_EMOTE
 LOG_GAME
 
 ## log job divide debugging information
-# LOG_JOB_DEBUG
+LOG_JOB_DEBUG
 
 ## log crew manifest to separate file
 LOG_MANIFEST
