@@ -229,7 +229,7 @@ REQUEST_INTERNET_ALLOWED youtube\.com\/watch?v=,youtu\.be\/,soundcloud\.com\/,ba
 ## Playtime Requirements is in minutes, Required Account Age is in days.
 ## Human Authority Whitelist Setting can either be 0 or 1.
 ## Make sure to read the start of the file to get a more in-depth explanation of what each entry does!
-LOAD_JOBS_FROM_TXT
+#LOAD_JOBS_FROM_TXT
 
 ## Uncomment this to forbid admins from possessing the singularity.
 ## It is intentional that Admins can edit this config, as its meant to serve as a deterrent/warning for admin abuse.
