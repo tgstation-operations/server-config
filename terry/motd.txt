@@ -6,9 +6,9 @@
 
 <h2 style="color:black;">Please use the following links for your information:</h2>
 
-<p style="color:black;">To avoid getting banned, make sure you read the <a href="https://paradisestation.org/tgwiki2/index.php?title=Rules"><b><u>Rules</b></u></a></p>
+<p style="color:black;">To avoid getting banned, make sure you read the <a href="https://wiki.tgstation13.org/Rules"><b><u>Rules</b></u></a></p>
 
-<p style="color:black;">For a host of useful information, take a look at the <a href="https://paradisestation.org/tgwiki2/index.php?title=Main_Page"><b><u>Wiki</b></u></a></p>
+<p style="color:black;">For a host of useful information, take a look at the <a href="https://wiki.tgstation13.org/Main_Page"><b><u>Wiki</b></u></a></p>
 
 <p style="color:black;">You can find the status of all of servers at our <a href="https://tgstation13.org/"><b><u>Homepage</b></u></a></p>
 
@@ -20,4 +20,4 @@
 
 <h3 style="color:black;"> Notice Board: </h3>
 
-<p style="color:red;"><b>• The forums have been restored! The Headmin Elections are <a href="https://forums.tgstation13.org/index.php"><b><u>underway here</b></u></a>.</p>
+<p style="color:red;"><b>• The Headmin Elections are finished! You can see <a href="https://forums.tgstation13.org/viewtopic.php?p=773585#p773585"><b><u>the results here.</b></u></a></p>
