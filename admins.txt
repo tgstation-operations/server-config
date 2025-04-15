@@ -20,5 +20,5 @@ ninjanomnom = HeadCoder
 
 ## Headmins
 rex9001 = HeadAdmin
-omegadarkpotato = HeadAdmin
+iain0 = HeadAdmin
 dramazing343 = HeadAdmin
