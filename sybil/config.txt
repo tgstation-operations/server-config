@@ -40,3 +40,9 @@ ADMINHELP_WEBHOOK_NAME Madame Sybil
 ## Based on config directory, so "motd.txt" points to "config/motd.txt"
 MOTD motd.txt
 #MOTD motd_extra.txt
+
+## Headmin decision to enable Sybil respawn as different character after 20 minutes dead time
+## 2 = Can respawn if choosing a different character
+ALLOW_RESPAWN 2
+## Respawn delay (deciseconds), which doesn't allow to return to lobby
+RESPAWN_DELAY 12000
