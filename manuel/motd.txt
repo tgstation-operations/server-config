@@ -16,12 +16,6 @@
 
 <h2 style="color:red;">The following trial admin review threads are currently active:</h2>
 
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38251"><b>BlitzArde</a></b></p>
-
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38450"><b>Meow12</a></b></p>
-
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38257"><b>ABritishfox</a></b></p>
-
 <p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38451"><b>Llaren Hlaalo</a></b></p>
 
 <h3> Notice Board: </h3>
