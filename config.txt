@@ -615,6 +615,8 @@ UPLOAD_LIMIT_ADMIN 5242880
 ## Uncomment to allow admins with +DEBUG to queue the next round to run the byond-tracy profiler.
 #ALLOW_TRACY_QUEUE
 
+FORUM_LINK_URI https://forums.tgstation13.org/linkbyondaccount.php
+
 # Includes for modular server-specific stuff
 $include manuel/config.txt
 $include sybil/config.txt
