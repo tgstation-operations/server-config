@@ -1,5 +1,16 @@
 {
-	"Dynamic": {},
+	"Dynamic": {
+		/* iain0 - some narrative on what I'm hoping to achieve */
+		/* Move the mid point / average threat up from 50 to probably 55ish - default is 0, range -5 to 5, so this is a 5% shift*/
+		"threat_curve_centre" = 0.5,
+		/* Tighten up the threat curve pulling more rounds into the middle area and less on the tails - notably with the shift above this reduces greenshifts more than black orbits */
+		/* Hopefully this provides a little more consistency between rounds and less dramatically swinging between extremes - default is 1.8 */
+		"threat_curve_width" = 1.5,
+		/* Similarly tighten up the round start split curve a little so we have less rounds where everything is dumped into round start or entirely midrounds - default 1.8 */
+		"roundstart_split_curve_width" = 1.5
+		/* for future note, midround_upper_bound is interesting and defines when all threat will have been spent by, however having already reduced costs lets see how this goes */
+	        /* before making things more frequent effectively.  also I have no idea how you'd set that kind of config var */
+	},
 	"Roundstart": {
 		"Traitors": {
 			"cost": 8,
