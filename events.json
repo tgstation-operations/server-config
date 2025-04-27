@@ -1,0 +1,8 @@
+{
+  "Anomaly: Gravitational (High Intensity)": {
+		"min_players": 15
+	},
+	"Gravity Generator Blackout": {
+		"min_players": 15
+	}  
+}
