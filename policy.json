@@ -3,6 +3,7 @@
 	"Where is policy shown?": "Most, but not all policy text, is displayed when releveant, such as on gaining a role.",
 	"What can I all set policy of?": "Antagonist typepaths, mob typepaths, species typepaths, special roles, and some extra special policy keys are all valid. Consult the code.",
 	"/datum/antagonist/obsessed":"Do not use this role as an excuse to murderbone, try to stick within the bounds of your objectives. Remember, your objective is not to kill the most people possible, but to make an interesting story.",
+	"/datum/antagonist/evil_clone":"This role is restricted to its objectives to kill other clones, do not seek to maximise damage, or antagonise beyond what is reasonably necessary in persuit of the objective.",
 	"/datum/antagonist/traitor": "Remember, your objective is not to kill the most people possible, but to make an interesting story.",
 	"/datum/antagonist/spy": "Remember, your objective is not to kill the most people possible, but to make an interesting story.",
 	"/datum/antagonist/heretic": "Remember, your objective is not to kill the most people possible, but to make an interesting story.",
