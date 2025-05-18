@@ -1,8 +1,8 @@
 {
 	"Dynamic": {
-		"threat_curve_centre": 0.5,
-		"threat_curve_width": 1.5,
-		"roundstart_split_curve_width": 1.5
+		"threat_curve_centre": 1,
+		"threat_curve_width": 4,
+		"roundstart_split_curve_width": 3
 	},
 	"Roundstart": {
 		"Traitors": {
