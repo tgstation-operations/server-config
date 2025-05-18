@@ -8,6 +8,9 @@
     "Grey Tide": {
         "min_players": 15
     },
+    "Radiation Storm": {
+        "min_players": 15
+    },    
     "Supermatter Surge": {
         "min_players": 15
     }
