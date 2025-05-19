@@ -1,5 +1,8 @@
 {
-	"Dynamic": {},
+	"Dynamic": {
+		"threat_curve_centre": -0.4,
+		"threat_curve_width": 4
+	},
 	"Roundstart": {
 		"Traitors": {
 			"cost": 10,
