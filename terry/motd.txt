@@ -14,6 +14,4 @@
 
 <p>You can join us on our Discord server <a href="https://discord.gg/tg13"><b><u>by clicking here.</b></u></a></p>
 
-<p><b>Terry Related Poll:</b> There are active polls regarding dynamic threat balance on Terry ; please give your feedback via the lobby polls button.</p>
-
 <!-- <h3> Notice Board: </h3> -->
