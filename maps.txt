@@ -31,7 +31,7 @@ map birdshot
 endmap
 
 map deltastation
-	#minplayers 50
+	minplayers 15
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38604
 endmap
