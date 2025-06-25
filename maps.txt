@@ -67,7 +67,9 @@ map wawastation
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38490
 endmap
 
-map rainstation
+# This is here so test-merged event maps show up in change-map verb. The map's json file must be named eventmap.json for it work.  
+
+map eventmap
 endmap
 
 # Debug-only maps.
