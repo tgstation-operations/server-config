@@ -50,18 +50,6 @@ Include = @ BUILD ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDI
 Exclude =
 Edit =
 
-# Mothblock's admin.txt rank
-Name = GameAdmin+HeadCoder
-Include = @ BUILD ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDIT SOUND SPAWN AUTOLOGIN
-Exclude =
-Edit =
-
-# Headmin/Maintainer admin.txt rank
-Name = HeadAdmin+Maintainer
-Include = EVERYTHING
-Exclude =
-Edit = EVERYTHING
-
 # Headmin admin.txt rank
 Name = HeadAdmin
 Include = EVERYTHING
