@@ -46,21 +46,9 @@
 
 # Headcoder headmin.txt rank
 Name = HeadCoder
-Include = @ BUILDMODE ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDIT SOUND SPAWN AUTOLOGIN
+Include = @ BUILD ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDIT SOUND SPAWN AUTOLOGIN
 Exclude =
 Edit =
-
-# Mothblock's admin.txt rank
-Name = GameAdmin+HeadCoder
-Include = @ BUILDMODE ADMIN FUN SERVER DEBUG POSSESS PERMISSIONS STEALTH POLL VAREDIT SOUND SPAWN AUTOLOGIN
-Exclude =
-Edit =
-
-# Headmin/Maintainer admin.txt rank
-Name = HeadAdmin+Maintainer
-Include = EVERYTHING
-Exclude =
-Edit = EVERYTHING
 
 # Headmin admin.txt rank
 Name = HeadAdmin
