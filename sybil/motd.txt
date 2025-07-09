@@ -14,4 +14,10 @@
 
 <p>You can join us on our Discord server <a href="https://discord.gg/tg13"><b><u>by clicking here.</b></u></a></p>
 
+<h2 style="color:red;">The following trial admin review threads are currently active:</h2>
+
+<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38869"><b>Sothanforax</b></a></p>
+
 <!-- <h3> Notice Board: </h3> -->
+
+<p><b>NOTE:</b> Respawn is enabled on the Sybil server, after 20 minutes of being dead you may use the Respawn verb on the OOC tab and pick a different character to join the round as.  Remember, this is a new character and knows nothing of your previous life.</p>
