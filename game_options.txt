@@ -324,7 +324,7 @@ ROUNDSTART_RACES moth
 ROUNDSTART_RACES felinid
 ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
-ROUNDSTART_RACES mush
+#ROUNDSTART_RACES mush
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
