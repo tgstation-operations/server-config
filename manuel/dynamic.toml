@@ -1,1 +1,19 @@
+["Greenshift"]
+name = "Green Alert"
+advisory_report = "Central Command Alert Level: <b>Green</b></center><BR>At this time Central Command is receiving the all clear from intelligence assets across this region."
 
+["Low Chaos"]
+name = "Blue Alert"
+advisory_report = "Central Command Alert Level: <b>Blue</b></center><BR>Central Command has received unreliable rumours of activity within the region, and has increased our intelligence resourcing accordingly.  Further updates about any confirmed threats will be forwarded to the relevant facilities."
+
+["Low-Medium Chaos"]
+name = "Yellow Alert"
+advisory_report = "Central Command Alert Level: <b>Yellow</b></center><BR>Central Command has received reports of hostile unit movements in the region suggesting a possible attack against one of our facilities.  We have increased our surveilance and will forward any further details to the relevant facilities."
+
+["Medium-High Chaos"]
+name = "Red Alert"
+advisory_report = "Central Command Alert Level: <b>Red</b></center><BR>Central Command has received multiple confirmed reports of hostile movements in the region, we are anticipating a strike against multiple assets or a co-ordinated assault on one.  We have mobilised to full intelligence alertness and will provide relevant facilities with updates as more information is obtained.  Facilities should await updates, remain vigilant and productive."
+
+["High Chaos"]
+name = "Black Alert"
+advisory_report = "Central Command Alert Level: <b>Black</b></center><BR>Central Command Intelligence Network is currently down due to combined remote jamming signals.  Forces have been dispatched to the originating sites and we anticipate restoration of service and a revision of the alert level in a few days. This jamming may represent an impending attack within the region, however enemy forces also deploy jamming as counter-value causing unnecessary disruption and expense to respond to.  We advise all facilities to remain vigilant and continue normal operations until we can provide additional information."
