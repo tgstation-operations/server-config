@@ -1,0 +1,25 @@
+["Greenshift"]
+weight = 1
+name = "Summer Ball"
+min_pop = 0
+advisory_report = "Fun Level: <b>mandatory</b></center>"
+ruleset_type_settings.roundstart.low = 0
+ruleset_type_settings.roundstart.high = 0
+ruleset_type_settings.light_midround.low = 0
+ruleset_type_settings.light_midround.high = 0
+ruleset_type_settings.heavy_midround.low = 0
+ruleset_type_settings.heavy_midround.high = 0
+ruleset_type_settings.latejoin.low = 0
+ruleset_type_settings.latejoin.high = 0
+
+["Low Chaos"]
+weight = 0
+
+["Low-Medium Chaos"]
+weight = 0
+
+["Medium-High Chaos"]
+weight = 0
+
+["High Chaos"]
+weight = 0
