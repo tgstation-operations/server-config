@@ -40,3 +40,8 @@ ADMINHELP_WEBHOOK_NAME Lord Terry
 ## Based on config directory, so "motd.txt" points to "config/motd.txt"
 MOTD motd.txt
 #MOTD motd_extra.txt
+
+## Moved to per-server config so event hall can opt out
+ALLOW_RANDOM_EVENTS
+ROUNDSTART_AWAY
+ENABLE_NIGHT_SHIFTS

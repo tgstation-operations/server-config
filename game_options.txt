@@ -141,7 +141,8 @@ EVENTS_CONFIG_ENABLED
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
-ALLOW_RANDOM_EVENTS
+## Moved to per server config so that event hall can opt out.
+#ALLOW_RANDOM_EVENTS
 
 ## Uncomment this to disable station traits.
 #FORBID_STATION_TRAITS
@@ -173,7 +174,8 @@ DISABLE_SECBORG
 ## AWAY MISSIONS ###
 
 ## Uncomment to load one of the missions from awaymissionconfig.txt at roundstart.
-ROUNDSTART_AWAY
+# migrated to per server config so event hall can opt out
+#ROUNDSTART_AWAY
 
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
 ## 600 is one minute.
@@ -433,7 +435,8 @@ ROUNDSTART_TRAITS
 #DISABLE_HUMAN_MOOD
 
 ## Enable night shifts ##
-ENABLE_NIGHT_SHIFTS
+# moved to per server config so event hall can opt out
+#ENABLE_NIGHT_SHIFTS
 
 ## The shift start hour in 24-hour (0-23) notation
 #SHIFT_TIME_START_HOUR 7

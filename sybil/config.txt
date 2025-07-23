@@ -46,3 +46,8 @@ MOTD motd.txt
 ALLOW_RESPAWN 2
 ## Respawn delay (deciseconds), which doesn't allow to return to lobby
 RESPAWN_DELAY 12000
+
+## Moved to per-server config so event hall can opt out
+ALLOW_RANDOM_EVENTS
+ROUNDSTART_AWAY
+ENABLE_NIGHT_SHIFTS
