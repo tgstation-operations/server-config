@@ -621,3 +621,4 @@ FORUM_LINK_URI https://forums.tgstation13.org/linkbyondaccount.php
 $include manuel/config.txt
 $include sybil/config.txt
 $include terry/config.txt
+$include eventhallus/config.txt
