@@ -1,0 +1,6 @@
+<!-- Most valid html will work in here, but you have to use URL links for images. -->
+
+<body link="blue">
+
+<h1>Welcome to /tg/station's SS13!</h1>
+

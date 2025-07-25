@@ -72,3 +72,8 @@ BYOND_MEMBER_BYPASS_POPCAP
 ## If FALSE / 0, station remains at green alert.
 ## Roundstart command report and greendshift announcements are unaffected.
 ROUNDSTART_BLUE_ALERT 0
+
+## Moved to per-server config so event hall can opt out
+ALLOW_RANDOM_EVENTS
+ROUNDSTART_AWAY
+ENABLE_NIGHT_SHIFTS

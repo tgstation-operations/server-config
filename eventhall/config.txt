@@ -13,27 +13,24 @@ $include dbconfig.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME [EU] /tg/station Terry
+SERVERNAME [US] /tg/station Event Hall
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
-SERVERSQLNAME terry
-
-## Put on byond hub: Uncomment this to put your server on the byond hub.
-HUB
+SERVERSQLNAME eventhall
 
 ## The address shown for the game server in the TGS check command
-PUBLIC_ADDRESS terry.tgstation13.org:3336
+PUBLIC_ADDRESS eventhall.tgstation13.org:7777
 
 ## The URL for the pfp of the webhook
-ADMINHELP_WEBHOOK_PFP https://cdn.discordapp.com/avatars/1331177853286617089/31399227a69606212a79feec28fd2777.webp
+#ADMINHELP_WEBHOOK_PFP https://cdn.discordapp.com/avatars/1331177853286617089/31399227a69606212a79feec28fd2777.webp
 
 ## The name of the webhook
-ADMINHELP_WEBHOOK_NAME Lord Terry
+#ADMINHELP_WEBHOOK_NAME Event Hall
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
 ## This is also used to show the server's address in the TGS check command if the public address isn't set
-#SERVER terry.tgstation13.org:3336
+#SERVER eventhall.tgstation13.org:7777
 
 ## Sets an MOTD of the server.
 ## You can use this multiple times, and the MOTDs will be appended in order.
@@ -41,7 +38,21 @@ ADMINHELP_WEBHOOK_NAME Lord Terry
 MOTD motd.txt
 #MOTD motd_extra.txt
 
-## Moved to per-server config so event hall can opt out
-ALLOW_RANDOM_EVENTS
-ROUNDSTART_AWAY
-ENABLE_NIGHT_SHIFTS
+ALLOW_RESPAWN 1
+
+NO_INTERCEPT_REPORT
+
+FORBID_STATION_TRAITS
+
+MINIMAL_ACCESS_THRESHOLD 0 
+
+FORBID_STATION_TRAITS
+
+LAVALAND_BUDGET 0
+
+SPACE_BUDGET 0
+
+MICE_ROUNDSTART 0
+
+DISABLE_HUMAN_MOOD
+
