@@ -16,9 +16,11 @@
 
 <h2 style="color:red;">The following trial admin review threads are currently active:</h2>
 
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38892"><b>Orchidfox</b></a></p>
-
 <p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38905"><b>Thecrystalship</b></a></p>
+
+<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38927"><b>Iansdoor</b></a></p>
+
+<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38928"><b>Kubisopplay</b></a></p>
 
 <h3> Notice Board: </h3>
 
