@@ -63,7 +63,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 30
 ["Low-Medium Chaos"]
 name = "Orange Star"
 min_pop = 10
-weight = 50
+weight = 45
 advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
 ruleset_type_settings.roundstart.low = 1
 ruleset_type_settings.roundstart.high = 4
@@ -94,7 +94,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 ["Medium-High Chaos"]
 name = "Red Star"
 min_pop = 20
-weight = 30
+weight = 35
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
 ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 4
