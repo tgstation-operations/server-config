@@ -16,8 +16,6 @@
 
 <h2 style="color:red;">The following trial admin review threads are currently active:</h2>
 
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38927"><b>Iansdoor</b></a></p>
-
 <p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=38928"><b>Kubisopplay</b></a></p>
 
 <p>/tg/station is a crowd-funded non-profit! <a href="https://opencollective.com/tgstation13">Consider donating a few dollars monthly on OpenCollective to help us keep the lights on!</a></p>
