@@ -236,7 +236,6 @@ weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 3
 
-
 ["Xenomorph"]
 weight.1 = 10
 weight.2 = 10
