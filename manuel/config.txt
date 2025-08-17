@@ -77,3 +77,6 @@ ROUNDSTART_BLUE_ALERT 0
 ALLOW_RANDOM_EVENTS
 ROUNDSTART_AWAY
 ENABLE_NIGHT_SHIFTS
+
+# made per server and only on manuel due to its pop caps
+KICK_INACTIVE
