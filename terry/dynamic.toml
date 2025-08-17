@@ -80,9 +80,9 @@ ruleset_type_settings.heavy_midround.low = 1
 ruleset_type_settings.heavy_midround.high = 2
 ruleset_type_settings.heavy_midround.half_range_pop_threshold = 25
 ruleset_type_settings.heavy_midround.full_range_pop_threshold = 40
-ruleset_type_settings.heavy_midround.time_threshold = 45
+ruleset_type_settings.heavy_midround.time_threshold = 40
 ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
-ruleset_type_settings.heavy_midround.execution_cooldown_high = 30
+ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
 ruleset_type_settings.latejoin.low = 0
 ruleset_type_settings.latejoin.high = 2
 ruleset_type_settings.latejoin.half_range_pop_threshold = 25
@@ -157,6 +157,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 10
 ["Latejoin Traitor"]
 weight = 10
 min_pop = 3
+repeatable_weight_decrease = 4
 
 ["Latejoin Heretic"]
 weight.1 = 0
@@ -164,6 +165,7 @@ weight.2 = 3
 weight.3 = 5
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 4
 
 ["Latejoin Changeling"]
 weight.1 = 3
@@ -171,6 +173,7 @@ weight.2 = 5
 weight.3 = 5
 weight.4 = 10
 min_pop = 15
+repeatable_weight_decrease = 4
 
 ["Latejoin Revolution"]
 weight.1 = 0
@@ -178,6 +181,7 @@ weight.2 = 0
 weight.3 = 1
 weight.4 = 2
 min_pop = 30
+repeatable = 0
 
 ["Spiders"]
 weight.1 = 10
@@ -185,6 +189,7 @@ weight.2 = 10
 weight.3 = 10
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 4
 
 ["Light Pirates"]
 weight.1 = 2
@@ -192,6 +197,7 @@ weight.2 = 3
 weight.3 = 3
 weight.4 = 5
 min_pop = 15
+repeatable_weight_decrease = 2
 
 ["Heavy Pirates"]
 weight.1 = 5
@@ -199,6 +205,7 @@ weight.2 = 5
 weight.3 = 5
 weight.4 = 5
 min_pop = 25
+repeatable_weight_decrease = 4
 
 ["Midround Wizard"]
 weight.1 = 1
@@ -206,6 +213,7 @@ weight.2 = 0
 weight.3 = 1
 weight.4 = 5
 min_pop = 30
+repeatable_weight_decrease = 2
 
 ["Midround Nukeops"]
 weight.1 = 2
@@ -213,10 +221,12 @@ weight.2 = 1
 weight.3 = 2
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Midround Clownops"]
 weight = 0
 min_pop = 30
+repeatable = 0
 
 ["Blob"]
 weight.1 = 2
@@ -224,6 +234,7 @@ weight.2 = 1
 weight.3 = 2
 weight.4 = 5
 min_pop = 30
+repeatable_weight_decrease = 3
 
 ["Xenomorph"]
 weight.1 = 10
@@ -231,6 +242,7 @@ weight.2 = 10
 weight.3 = 10
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 4
 
 ["Nightmare"]
 weight.1 = 3
@@ -238,6 +250,7 @@ weight.2 = 5
 weight.3 = 5
 weight.4 = 10
 min_pop = 15
+repeatable_weight_decrease = 3
 
 ["Space Dragon"]
 weight.1 = 10
@@ -245,6 +258,7 @@ weight.2 = 5
 weight.3 = 10
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 4
 
 ["Abductors"]
 weight.1 = 5
@@ -252,6 +266,7 @@ weight.2 = 3
 weight.3 = 3
 weight.4 = 1
 min_pop = 20
+repeatable_weight_decrease = 3
 
 ["Space Ninja"]
 weight.1 = 10
@@ -259,6 +274,7 @@ weight.2 = 5
 weight.3 = 10
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 4
 
 ["Revenant"]
 weight.1 = 5
@@ -266,6 +282,7 @@ weight.2 = 3
 weight.3 = 3
 weight.4 = 1
 min_pop = 10
+repeatable = 0
 
 ["Midround Changeling"]
 weight.1 = 3
@@ -273,6 +290,7 @@ weight.2 = 5
 weight.3 = 5
 weight.10 = 10
 min_pop = 15
+repeatable_weight_decrease = 3
 
 ["Paradox Clone"]
 weight.1 = 5
@@ -280,6 +298,7 @@ weight.2 = 3
 weight.3 = 1
 weight.4 = 0
 min_pop = 10
+repeatable_weight_decrease = 3
 
 ["Voidwalker"]
 weight.1 = 3
@@ -287,6 +306,7 @@ weight.2 = 5
 weight.3 = 5
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 3
 
 ["Fugitives"]
 weight.1 = 3
@@ -294,18 +314,22 @@ weight.2 = 3
 weight.3 = 1
 weight.4 = 0
 min_pop = 20
+repeatable = 0
 
 ["Morph"]
 weight = 0
 min_pop = 0
+repeatable_weight_decrease = 2
 
 ["Slaughter Demon"]
 weight = 0
 min_pop = 20
+repeatable_weight_decrease = 2
 
 ["Midround Traitor"]
 weight = 10
 min_pop = 3
+repeatable_weight_decrease = 4
 
 ["Midround Malfunctioning AI"]
 weight.1 = 5
@@ -313,6 +337,7 @@ weight.2 = 2
 weight.3 = 5
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Blob Infection"]
 weight.1 = 2
@@ -320,6 +345,7 @@ weight.2 = 1
 weight.3 = 2
 weight.4 = 5
 min_pop = 30
+repeatable_weight_decrease = 3
 
 ["Midround Obsessed"]
 weight.1 = 5
@@ -327,10 +353,12 @@ weight.2 = 3
 weight.3 = 1
 weight.4 = 0
 min_pop = 5
+repeatable_weight_decrease = 3
 
 ["Roundstart Traitor"]
 weight = 10
 min_pop = 3
+repeatable_weight_decrease = 4
 
 ["Roundstart Malfunctioning AI"]
 weight.1 = 0
@@ -338,13 +366,15 @@ weight.2 = 0
 weight.3 = 3
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Roundstart Blood Brothers"]
 weight.1 = 10
 weight.2 = 5
-weight.3 = 5
-weight.4 = 5
+weight.3 = 3
+weight.4 = 3
 min_pop = 10
+repeatable_weight_decrease = 4
 
 ["Roundstart Changeling"]
 weight.1 = 3
@@ -352,6 +382,7 @@ weight.2 = 5
 weight.3 = 5
 weight.4 = 10
 min_pop = 15
+repeatable_weight_decrease = 3
 
 ["Roundstart Heretics"]
 weight.1 = 0
@@ -359,6 +390,7 @@ weight.2 = 3
 weight.3 = 5
 weight.4 = 10
 min_pop = 30
+repeatable_weight_decrease = 3
 
 ["Roundstart Wizard"]
 weight.1 = 0
@@ -366,6 +398,7 @@ weight.2 = 0
 weight.3 = 3
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Roundstart Blood Cult"]
 weight.1 = 0
@@ -373,6 +406,7 @@ weight.2 = 0
 weight.3 = 3
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Roundstart Nukeops"]
 weight.1 = 0
@@ -380,10 +414,12 @@ weight.2 = 0
 weight.3 = 3
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Roundstart Clownops"]
 weight = 0
 min_pop = 30
+repeatable = 0
 
 ["Roundstart Revolution"]
 weight.1 = 0
@@ -391,13 +427,15 @@ weight.2 = 0
 weight.3 = 3
 weight.4 = 5
 min_pop = 30
+repeatable = 0
 
 ["Roundstart Spies"]
 weight.1 = 10
 weight.2 = 5
-weight.3 = 5
-weight.4 = 5
+weight.3 = 3
+weight.4 = 3
 min_pop = 10
+repeatable_weight_decrease = 4
 
 ["Extended"]
 weight = 0
