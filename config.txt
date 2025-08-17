@@ -92,7 +92,8 @@ INACTIVITY_PERIOD 300
 AFK_PERIOD 600
 
 ## disconnect players who are considered afk
-KICK_INACTIVE
+# iain0 - moved to per server configs, only on manuel
+#KICK_INACTIVE
 
 ## Comment this out to stop admins being able to choose their personal ooccolor
 ALLOW_ADMIN_OOCCOLOR
