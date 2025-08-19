@@ -25,4 +25,4 @@ We exclude a few paths for various reasons (primarily copyright). These are list
 
 ## Contributing
 
-This repository is primarily intended to be managed by /tg/station Head Administrators, but PRs may be made if desired. The /tg/station Operations team (including the Host) does not interfere in the configurations set in this repository, unless requested by a Head Administrator or required for infrastructure integrity.
+This repository is primarily intended to be managed by /tg/station Head Administrators, but PRs may be made if desired. The /tg/station Operations team does not interfere in the configurations set in this repository, unless requested by a Head Administrator or required for infrastructure integrity.
