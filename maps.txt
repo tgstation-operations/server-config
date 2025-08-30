@@ -19,7 +19,7 @@ endmap
 map catwalkstation
 	minplayers 25
 	votable
-	feedbacklink https://forums.tgstation13.org/viewtopic.php?p=776669#
+	feedbacklink https://forums.tgstation13.org/viewtopic.php?p=745280
 endmap
 
 map birdshot
