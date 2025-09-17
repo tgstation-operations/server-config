@@ -11,7 +11,7 @@
 ## If you remove someone from this file, **you will also need to remove their old rank via the in-game Permission Panel**.
 
 ## Headcoders
-jaredfogle = GameAdmin+HeadCoder
+mothblocks = GameAdmin+HeadCoder
 lemoninthedark = HeadCoder
 ninjanomnom = HeadCoder
 
