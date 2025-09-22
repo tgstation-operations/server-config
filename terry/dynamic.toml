@@ -1,5 +1,5 @@
 ["Greenshift"]
-weight = 0
+weight = 5
 name = "Blue Star"
 min_pop = 0
 advisory_report = "Advisory Level: Advisory Level: <b>Blue Star</b></center><BR>Your sector's advisory level is Blue Star. Surveillance shows low levels of enemy activity in the sector.  We advise a normal working routine with increased vigilance."
@@ -32,7 +32,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 30
 ["Low Chaos"]
 name = "Yellow Star"
 min_pop = 0
-weight = 10
+weight = 20
 advisory_report = "Advisory Level: <b>Yellow Star</b></center><BR>Your sector's advisory level is Yellow Star. Surveillance shows a credible risk of enemy attack against our assets in the Spinward Sector. We advise a heightened level of security alongside maintaining vigilance against potential threats."
 ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 2
@@ -63,7 +63,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 30
 ["Low-Medium Chaos"]
 name = "Orange Star"
 min_pop = 10
-weight = 45
+weight = 35
 advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
 ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 4
@@ -94,7 +94,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 ["Medium-High Chaos"]
 name = "Red Star"
 min_pop = 20
-weight = 35
+weight = 30
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
 ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 4
@@ -125,7 +125,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 15
 ["High Chaos"]
 name = "Black Orbit"
 min_pop = 30
-weight = 10
+weight = 15
 advisory_report = "Advisory Level: <b>Black Orbit</b></center><BR>Your sector's advisory level is Black Orbit. Multiple jamming signals in your region limit intelligence and render traditional classifications inapplicable.  Analysis suggests a mask to cover a large scale mobilisation in the region, or multiple significant independent threats.  Credible information passed to us by GDI suggests that the Syndicate is preparing to mount a major concerted offensive on Nanotrasen assets in the Spinward Sector to cripple our foothold there. All stations should remain on high alert and prepared to defend themselves."
 ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 3
@@ -135,14 +135,14 @@ ruleset_type_settings.light_midround.low = 1
 ruleset_type_settings.light_midround.high = 1
 ruleset_type_settings.light_midround.half_range_pop_threshold = 15
 ruleset_type_settings.light_midround.full_range_pop_threshold = 25
-ruleset_type_settings.light_midround.time_threshold = 15
-ruleset_type_settings.light_midround.execution_cooldown_low = 7
-ruleset_type_settings.light_midround.execution_cooldown_high = 13
+ruleset_type_settings.light_midround.time_threshold = 20
+ruleset_type_settings.light_midround.execution_cooldown_low = 10
+ruleset_type_settings.light_midround.execution_cooldown_high = 15
 ruleset_type_settings.heavy_midround.low = 5
 ruleset_type_settings.heavy_midround.high = 5
 ruleset_type_settings.heavy_midround.half_range_pop_threshold = 15
 ruleset_type_settings.heavy_midround.full_range_pop_threshold = 25
-ruleset_type_settings.heavy_midround.time_threshold = 30
+ruleset_type_settings.heavy_midround.time_threshold = 45
 ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
 ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
 ruleset_type_settings.latejoin.low = 1
@@ -212,7 +212,7 @@ weight.1 = 1
 weight.2 = 0
 weight.3 = 1
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 2
 
 ["Midround Nukeops"]
@@ -220,7 +220,7 @@ weight.1 = 2
 weight.2 = 1
 weight.3 = 2
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable = 0
 
 ["Midround Clownops"]
@@ -317,12 +317,12 @@ min_pop = 20
 repeatable = 0
 
 ["Morph"]
-weight = 0
+weight = 3
 min_pop = 0
 repeatable_weight_decrease = 2
 
 ["Slaughter Demon"]
-weight = 0
+weight = 2
 min_pop = 20
 repeatable_weight_decrease = 2
 
@@ -365,7 +365,7 @@ weight.1 = 0
 weight.2 = 0
 weight.3 = 3
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable = 0
 
 ["Roundstart Blood Brothers"]
@@ -438,7 +438,7 @@ min_pop = 10
 repeatable_weight_decrease = 4
 
 ["Extended"]
-weight = 0
+weight = 1
 min_pop = 0
 
 ["Meteor"]
