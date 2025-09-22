@@ -1,5 +1,5 @@
 ["Greenshift"]
-weight = 5
+weight = 0
 name = "Blue Star"
 min_pop = 0
 advisory_report = "Advisory Level: Advisory Level: <b>Blue Star</b></center><BR>Your sector's advisory level is Blue Star. Surveillance shows low levels of enemy activity in the sector.  We advise a normal working routine with increased vigilance."
@@ -32,7 +32,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 30
 ["Low Chaos"]
 name = "Yellow Star"
 min_pop = 0
-weight = 20
+weight = 15
 advisory_report = "Advisory Level: <b>Yellow Star</b></center><BR>Your sector's advisory level is Yellow Star. Surveillance shows a credible risk of enemy attack against our assets in the Spinward Sector. We advise a heightened level of security alongside maintaining vigilance against potential threats."
 ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 3
@@ -93,7 +93,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 
 ["Medium-High Chaos"]
 name = "Red Star"
-min_pop = 15
+min_pop = 20
 weight = 30
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
 ruleset_type_settings.roundstart.low = 2
@@ -142,7 +142,7 @@ ruleset_type_settings.heavy_midround.low = 5
 ruleset_type_settings.heavy_midround.high = 5
 ruleset_type_settings.heavy_midround.half_range_pop_threshold = 15
 ruleset_type_settings.heavy_midround.full_range_pop_threshold = 25
-ruleset_type_settings.heavy_midround.time_threshold = 45
+ruleset_type_settings.heavy_midround.time_threshold = 30
 ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
 ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
 ruleset_type_settings.latejoin.low = 1
@@ -317,12 +317,12 @@ min_pop = 20
 repeatable = 0
 
 ["Morph"]
-weight = 3
+weight = 0
 min_pop = 0
 repeatable_weight_decrease = 2
 
 ["Slaughter Demon"]
-weight = 2
+weight = 0
 min_pop = 20
 repeatable_weight_decrease = 2
 
@@ -356,7 +356,7 @@ min_pop = 5
 repeatable_weight_decrease = 3
 
 ["Roundstart Traitor"]
-weight = 15
+weight = 12
 min_pop = 3
 repeatable_weight_decrease = 4
 
@@ -365,7 +365,7 @@ weight.1 = 0
 weight.2 = 0
 weight.3 = 3
 weight.4 = 5
-min_pop = 25
+min_pop = 30
 repeatable = 0
 
 ["Roundstart Blood Brothers"]
@@ -385,8 +385,8 @@ min_pop = 15
 repeatable_weight_decrease = 3
 
 ["Roundstart Heretics"]
-weight.1 = 1
-weight.2 = 5
+weight.1 = 0
+weight.2 = 0
 weight.3 = 7
 weight.4 = 12
 min_pop = 25
@@ -401,8 +401,8 @@ min_pop = 30
 repeatable = 0
 
 ["Roundstart Blood Cult"]
-weight.1 = 1
-weight.2 = 1
+weight.1 = 0
+weight.2 = 0
 weight.3 = 5
 weight.4 = 7
 min_pop = 25
@@ -422,8 +422,8 @@ min_pop = 30
 repeatable = 0
 
 ["Roundstart Revolution"]
-weight.1 = 1
-weight.2 = 1
+weight.1 = 0
+weight.2 = 0
 weight.3 = 5
 weight.4 = 7
 min_pop = 25
@@ -438,7 +438,7 @@ min_pop = 10
 repeatable_weight_decrease = 4
 
 ["Extended"]
-weight = 1
+weight = 0
 min_pop = 0
 
 ["Meteor"]
