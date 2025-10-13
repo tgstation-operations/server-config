@@ -186,8 +186,8 @@ repeatable = 0
 ["Spiders"]
 weight.1 = 10
 weight.2 = 10
-weight.3 = 10
-weight.4 = 10
+weight.3 = 5
+weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 4
 
@@ -230,17 +230,17 @@ repeatable = 0
 
 ["Blob"]
 weight.1 = 2
-weight.2 = 1
-weight.3 = 2
-weight.4 = 5
+weight.2 = 2
+weight.3 = 3
+weight.4 = 3
 min_pop = 30
 repeatable_weight_decrease = 3
 
 ["Xenomorph"]
 weight.1 = 10
-weight.2 = 10
+weight.2 = 5
 weight.3 = 10
-weight.4 = 10
+weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 4
 
@@ -256,7 +256,7 @@ repeatable_weight_decrease = 3
 weight.1 = 10
 weight.2 = 5
 weight.3 = 10
-weight.4 = 10
+weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 4
 
@@ -272,7 +272,7 @@ repeatable_weight_decrease = 3
 weight.1 = 10
 weight.2 = 5
 weight.3 = 10
-weight.4 = 10
+weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 4
 
@@ -327,7 +327,10 @@ min_pop = 20
 repeatable_weight_decrease = 2
 
 ["Midround Traitor"]
-weight = 10
+weight.1 = 10
+weight.2 = 10
+weight.3 = 5
+weight.4 = 5
 min_pop = 3
 repeatable_weight_decrease = 4
 
@@ -341,9 +344,9 @@ repeatable = 0
 
 ["Blob Infection"]
 weight.1 = 2
-weight.2 = 1
-weight.3 = 2
-weight.4 = 5
+weight.2 = 2
+weight.3 = 3
+weight.4 = 3
 min_pop = 30
 repeatable_weight_decrease = 3
 
@@ -356,7 +359,10 @@ min_pop = 5
 repeatable_weight_decrease = 3
 
 ["Roundstart Traitor"]
-weight = 10
+weight.1 = 10
+weight.2 = 10
+weight.3 = 5
+weight.4 = 10
 min_pop = 3
 repeatable_weight_decrease = 4
 
