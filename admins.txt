@@ -17,5 +17,5 @@ ninjanomnom = HeadCoder
 
 ## Headmins
 rex9001 = HeadAdmin
-iain0 = HeadAdmin
+maxipat = HeadAdmin
 striders13 = HeadAdmin
