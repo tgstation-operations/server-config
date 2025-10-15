@@ -16,6 +16,6 @@ lemoninthedark = HeadCoder
 ninjanomnom = HeadCoder
 
 ## Headmins
-rex9001 = HeadAdmin
+isratosh = HeadAdmin
 maxipat = HeadAdmin
 striders13 = HeadAdmin
