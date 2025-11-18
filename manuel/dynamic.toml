@@ -1,19 +1,482 @@
 ["Greenshift"]
-name = "Green Alert"
-advisory_report = "Central Command Alert Level: <b>Green</b></center><BR>At this time Central Command is receiving the all clear from intelligence assets across this region."
+name = "Blue Star"
+min_pop = 0
+weight = 2
+advisory_report = "Advisory Level: <b>Green Star</b></center><BR>Your sector's advisory level is Green Star. Surveillance information shows no credible threats to Nanotrasen assets within the Spinward Sector at this time. As always, the Department advises maintaining vigilance against potential threats, regardless of a lack of known threats."
+ruleset_type_settings.roundstart.low = 0
+ruleset_type_settings.roundstart.high = 0
+ruleset_type_settings.roundstart.half_range_pop_threshold = 25
+ruleset_type_settings.roundstart.full_range_pop_threshold = 50
+ruleset_type_settings.light_midround.low = 0
+ruleset_type_settings.light_midround.high = 0
+ruleset_type_settings.light_midround.half_range_pop_threshold = 25
+ruleset_type_settings.light_midround.full_range_pop_threshold = 40
+ruleset_type_settings.light_midround.time_threshold = 30
+ruleset_type_settings.light_midround.execution_cooldown_low = 10
+ruleset_type_settings.light_midround.execution_cooldown_high = 20
+ruleset_type_settings.heavy_midround.low = 0
+ruleset_type_settings.heavy_midround.high = 0
+ruleset_type_settings.heavy_midround.half_range_pop_threshold = 25
+ruleset_type_settings.heavy_midround.full_range_pop_threshold = 40
+ruleset_type_settings.heavy_midround.time_threshold = 60
+ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
+ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
+ruleset_type_settings.latejoin.low = 0
+ruleset_type_settings.latejoin.high = 0
+ruleset_type_settings.latejoin.half_range_pop_threshold = 25
+ruleset_type_settings.latejoin.full_range_pop_threshold = 40
+ruleset_type_settings.latejoin.time_threshold = 0
+ruleset_type_settings.latejoin.execution_cooldown_low = 10
+ruleset_type_settings.latejoin.execution_cooldown_high = 20
 
 ["Low Chaos"]
-name = "Blue Alert"
-advisory_report = "Central Command Alert Level: <b>Blue</b></center><BR>Central Command has received unreliable rumours of activity within the region, and has increased our intelligence resourcing accordingly.  Further updates about any confirmed threats will be forwarded to the relevant facilities."
+name = "Yellow Star"
+min_pop = 0
+weight = 23
+advisory_report = "Advisory Level: <b>Yellow Star</b></center><BR>Your sector's advisory level is Yellow Star. Surveillance shows a credible risk of enemy attack against our assets in the Spinward Sector. We advise a heightened level of security alongside maintaining vigilance against potential threats."
+ruleset_type_settings.roundstart.low = 1
+ruleset_type_settings.roundstart.high = 2
+ruleset_type_settings.roundstart.half_range_pop_threshold = 18
+ruleset_type_settings.roundstart.full_range_pop_threshold = 21
+ruleset_type_settings.light_midround.low = 3
+ruleset_type_settings.light_midround.high = 4
+ruleset_type_settings.light_midround.half_range_pop_threshold = 18
+ruleset_type_settings.light_midround.full_range_pop_threshold = 21
+ruleset_type_settings.light_midround.time_threshold = 35
+ruleset_type_settings.light_midround.execution_cooldown_low = 15
+ruleset_type_settings.light_midround.execution_cooldown_high = 21
+ruleset_type_settings.heavy_midround.low = 0
+ruleset_type_settings.heavy_midround.high = 1
+ruleset_type_settings.heavy_midround.half_range_pop_threshold = 18
+ruleset_type_settings.heavy_midround.full_range_pop_threshold = 25
+ruleset_type_settings.heavy_midround.time_threshold = 50
+ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
+ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
+ruleset_type_settings.latejoin.low = 0
+ruleset_type_settings.latejoin.high = 2
+ruleset_type_settings.latejoin.half_range_pop_threshold = 18
+ruleset_type_settings.latejoin.full_range_pop_threshold = 21
+ruleset_type_settings.latejoin.time_threshold = 15
+ruleset_type_settings.latejoin.execution_cooldown_low = 15
+ruleset_type_settings.latejoin.execution_cooldown_high = 30
 
 ["Low-Medium Chaos"]
-name = "Yellow Alert"
-advisory_report = "Central Command Alert Level: <b>Yellow</b></center><BR>Central Command has received reports of hostile unit movements in the region suggesting a possible attack against one of our facilities.  We have increased our surveilance and will forward any further details to the relevant facilities."
+name = "Orange Star"
+min_pop = 18
+weight = 38
+advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
+ruleset_type_settings.roundstart.low = 2
+ruleset_type_settings.roundstart.high = 2
+ruleset_type_settings.roundstart.half_range_pop_threshold = 18
+ruleset_type_settings.roundstart.full_range_pop_threshold = 22
+ruleset_type_settings.light_midround.low = 2
+ruleset_type_settings.light_midround.high = 2
+ruleset_type_settings.light_midround.half_range_pop_threshold = 18
+ruleset_type_settings.light_midround.full_range_pop_threshold = 22
+ruleset_type_settings.light_midround.time_threshold = 35
+ruleset_type_settings.light_midround.execution_cooldown_low = 10
+ruleset_type_settings.light_midround.execution_cooldown_high = 15
+ruleset_type_settings.heavy_midround.low = 1
+ruleset_type_settings.heavy_midround.high = 2
+ruleset_type_settings.heavy_midround.half_range_pop_threshold = 18
+ruleset_type_settings.heavy_midround.full_range_pop_threshold = 30
+ruleset_type_settings.heavy_midround.time_threshold = 45
+ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
+ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
+ruleset_type_settings.latejoin.low = 1
+ruleset_type_settings.latejoin.high = 2
+ruleset_type_settings.latejoin.half_range_pop_threshold = 18
+ruleset_type_settings.latejoin.full_range_pop_threshold = 21
+ruleset_type_settings.latejoin.time_threshold = 20
+ruleset_type_settings.latejoin.execution_cooldown_low = 10
+ruleset_type_settings.latejoin.execution_cooldown_high = 20
 
 ["Medium-High Chaos"]
-name = "Red Alert"
-advisory_report = "Central Command Alert Level: <b>Red</b></center><BR>Central Command has received multiple confirmed reports of hostile movements in the region, we are anticipating a strike against multiple assets or a co-ordinated assault on one.  We have mobilised to full intelligence alertness and will provide relevant facilities with updates as more information is obtained.  Facilities should await updates, remain vigilant and productive."
+name = "Red Star"
+min_pop = 30
+weight = 23
+advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
+ruleset_type_settings.roundstart.low = 2
+ruleset_type_settings.roundstart.high = 2
+ruleset_type_settings.roundstart.half_range_pop_threshold = 15
+ruleset_type_settings.roundstart.full_range_pop_threshold = 30
+ruleset_type_settings.light_midround.low = 1
+ruleset_type_settings.light_midround.high = 2
+ruleset_type_settings.light_midround.half_range_pop_threshold = 15
+ruleset_type_settings.light_midround.full_range_pop_threshold = 30
+ruleset_type_settings.light_midround.time_threshold = 35
+ruleset_type_settings.light_midround.execution_cooldown_low = 10
+ruleset_type_settings.light_midround.execution_cooldown_high = 15
+ruleset_type_settings.heavy_midround.low = 1
+ruleset_type_settings.heavy_midround.high = 2
+ruleset_type_settings.heavy_midround.half_range_pop_threshold = 15
+ruleset_type_settings.heavy_midround.full_range_pop_threshold = 30
+ruleset_type_settings.heavy_midround.time_threshold = 50
+ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
+ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
+ruleset_type_settings.latejoin.low = 0
+ruleset_type_settings.latejoin.high = 2
+ruleset_type_settings.latejoin.half_range_pop_threshold = 15
+ruleset_type_settings.latejoin.full_range_pop_threshold = 21
+ruleset_type_settings.latejoin.time_threshold = 10
+ruleset_type_settings.latejoin.execution_cooldown_low = 5
+ruleset_type_settings.latejoin.execution_cooldown_high = 10
 
 ["High Chaos"]
-name = "Black Alert"
-advisory_report = "Central Command Alert Level: <b>Black</b></center><BR>Central Command Intelligence Network is currently down due to combined remote jamming signals.  Forces have been dispatched to the originating sites and we anticipate restoration of service and a revision of the alert level in a few days. This jamming may represent an impending attack within the region, however enemy forces also deploy jamming as counter-value causing unnecessary disruption and expense to respond to.  We advise all facilities to remain vigilant and continue normal operations until we can provide additional information."
+name = "Black Orbit"
+min_pop = 30
+weight = 14
+advisory_report = "Advisory Level: <b>Black Orbit</b></center><BR>Your sector's advisory level is Black Orbit. Multiple jamming signals in your region limit intelligence and render traditional classifications inapplicable.  Analysis suggests a mask to cover a large scale mobilisation in the region, or multiple significant independent threats.  Credible information passed to us by GDI suggests that the Syndicate is preparing to mount a major concerted offensive on Nanotrasen assets in the Spinward Sector to cripple our foothold there. All stations should remain on high alert and prepared to defend themselves."
+ruleset_type_settings.roundstart.low = 2
+ruleset_type_settings.roundstart.high = 3
+ruleset_type_settings.roundstart.half_range_pop_threshold = 15
+ruleset_type_settings.roundstart.full_range_pop_threshold = 25
+ruleset_type_settings.light_midround.low = 1
+ruleset_type_settings.light_midround.high = 1
+ruleset_type_settings.light_midround.half_range_pop_threshold = 15
+ruleset_type_settings.light_midround.full_range_pop_threshold = 25
+ruleset_type_settings.light_midround.time_threshold = 25
+ruleset_type_settings.light_midround.execution_cooldown_low = 5
+ruleset_type_settings.light_midround.execution_cooldown_high = 10
+ruleset_type_settings.heavy_midround.low = 2
+ruleset_type_settings.heavy_midround.high = 4
+ruleset_type_settings.heavy_midround.half_range_pop_threshold = 15
+ruleset_type_settings.heavy_midround.full_range_pop_threshold = 25
+ruleset_type_settings.heavy_midround.time_threshold = 35
+ruleset_type_settings.heavy_midround.execution_cooldown_low = 10
+ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
+ruleset_type_settings.latejoin.low = 1
+ruleset_type_settings.latejoin.high = 2
+ruleset_type_settings.latejoin.half_range_pop_threshold = 15
+ruleset_type_settings.latejoin.full_range_pop_threshold = 21
+ruleset_type_settings.latejoin.time_threshold = 5
+ruleset_type_settings.latejoin.execution_cooldown_low = 5
+ruleset_type_settings.latejoin.execution_cooldown_high = 10
+
+
+["Latejoin Traitor"]
+weight.1 = 10
+weight.2 = 14
+weight.3 = 10
+weight.4 = 10
+min_pop = 11
+repeatable_weight_decrease = 5
+
+["Latejoin Heretic"]
+weight.1 = 0
+weight.2 = 0
+weight.3 = 0
+weight.4 = 0
+min_pop = 30
+repeatable_weight_decrease = 4
+
+["Latejoin Changeling"]
+weight.1 = 3
+weight.2 = 5
+weight.3 = 5
+weight.4 = 10
+min_pop = 15
+repeatable_weight_decrease = 4
+
+["Latejoin Revolution"]
+weight.1 = 0
+weight.2 = 1
+weight.3 = 1
+weight.4 = 2
+min_pop = 30
+repeatable = 0
+
+["Spiders"]
+weight.1 = 10
+weight.2 = 5
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable_weight_decrease = 4
+
+["Light Pirates"]
+weight.1 = 2
+weight.2 = 3
+weight.3 = 3
+weight.4 = 5
+min_pop = 15
+repeatable_weight_decrease = 2
+
+["Heavy Pirates"]
+weight.1 = 3
+weight.2 = 3
+weight.3 = 3
+weight.4 = 3
+min_pop = 25
+repeatable_weight_decrease = 4
+
+["Midround Wizard"]
+weight.1 = 1
+weight.2 = 1
+weight.3 = 3
+weight.4 = 5
+min_pop = 30
+repeatable_weight_decrease = 2
+
+["Midround Nukeops"]
+weight.1 = 2
+weight.2 = 1
+weight.3 = 2
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Midround Clownops"]
+weight = 0
+min_pop = 30
+repeatable = 0
+
+["Blob"]
+weight.1 = 2
+weight.2 = 2
+weight.3 = 3
+weight.4 = 3
+min_pop = 30
+repeatable_weight_decrease = 3
+
+["Xenomorph"]
+weight.1 = 10
+weight.2 = 5
+weight.3 = 8
+weight.4 = 5
+min_pop = 30
+repeatable_weight_decrease = 4
+
+["Nightmare"]
+weight.1 = 3
+weight.2 = 5
+weight.3 = 5
+weight.4 = 7
+min_pop = 15
+repeatable_weight_decrease = 5
+
+["Space Dragon"]
+weight.1 = 5
+weight.2 = 5
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable_weight_decrease = 4
+
+["Abductors"]
+weight.1 = 6
+weight.2 = 6
+weight.3 = 6
+weight.4 = 5
+min_pop = 20
+repeatable_weight_decrease = 3
+
+["Space Ninja"]
+weight.1 = 10
+weight.2 = 10
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable_weight_decrease = 5
+
+["Revenant"]
+weight.1 = 5
+weight.2 = 3
+weight.3 = 3
+weight.4 = 2
+min_pop = 10
+repeatable = 0
+
+["Midround Changeling"]
+weight.1 = 7
+weight.2 = 7
+weight.3 = 8
+weight.10 = 10
+min_pop = 15
+repeatable_weight_decrease = 4
+
+["Midround Mass Changelings"]
+weight.1 = 0
+weight.2 = 4
+weight.3 = 4
+weight.4 = 4
+min_pop = 25
+blacklisted_roles = []
+repeatable_weight_decrease = 4
+repeatable = 1
+min_antag_cap = 2
+max_antag_cap = 3
+
+["Paradox Clone"]
+weight.1 = 8
+weight.2 = 8
+weight.3 = 10
+weight.4 = 10
+min_pop = 10
+repeatable_weight_decrease = 4
+
+["Voidwalker"]
+weight.1 = 3
+weight.2 = 5
+weight.3 = 5
+weight.4 = 10
+min_pop = 30
+repeatable_weight_decrease = 3
+
+["Fugitives"]
+weight.1 = 8
+weight.2 = 8
+weight.3 = 5
+weight.4 = 5
+min_pop = 20
+repeatable = 0
+
+["Morph"]
+weight = 0
+min_pop = 0
+repeatable_weight_decrease = 2
+
+["Slaughter Demon"]
+weight = 0
+min_pop = 20
+repeatable_weight_decrease = 2
+
+["Midround Traitor"]
+weight.1 = 15
+weight.2 = 10
+weight.3 = 10
+weight.4 = 10
+min_pop = 11
+repeatable_weight_decrease = 4
+
+["Midround Mass Traitors"]
+weight.1 = 5
+weight.2 = 8
+weight.3 = 8
+weight.4 = 5
+min_pop = 15
+repeatable_weight_decrease = 8
+repeatable = 1
+min_antag_cap = 2
+max_antag_cap = 3
+
+["Midround Malfunctioning AI"]
+weight.1 = 5
+weight.2 = 2
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Blob Infection"]
+weight.1 = 4
+weight.2 = 2
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable_weight_decrease = 4
+
+["Midround Obsessed"]
+weight.1 = 8
+weight.2 = 8
+weight.3 = 5
+weight.4 = 5
+min_pop = 5
+repeatable_weight_decrease = 4
+
+["Roundstart Traitor"]
+weight.1 = 12
+weight.2 = 12
+weight.3 = 5
+weight.4 = 7
+min_pop = 11
+repeatable_weight_decrease = 4
+
+["Roundstart Malfunctioning AI"]
+weight.1 = 1
+weight.2 = 3
+weight.3 = 3
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Roundstart Blood Brothers"]
+weight.1 = 12
+weight.2 = 7
+weight.3 = 3
+weight.4 = 0
+min_pop = 11
+repeatable_weight_decrease = 4
+
+["Roundstart Changeling"]
+weight.1 = 5
+weight.2 = 5
+weight.3 = 5
+weight.4 = 10
+min_pop = 15
+repeatable_weight_decrease = 3
+
+["Roundstart Heretics"]
+weight.1 = 3
+weight.2 = 5
+weight.3 = 5
+weight.4 = 10
+min_pop = 30
+repeatable_weight_decrease = 3
+
+["Roundstart Wizard"]
+weight.1 = 1
+weight.2 = 1
+weight.3 = 3
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Roundstart Blood Cult"]
+weight.1 = 1
+weight.2 = 3
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Roundstart Nukeops"]
+weight.1 = 1
+weight.2 = 3
+weight.3 = 3
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Roundstart Clownops"]
+weight = 0
+min_pop = 30
+repeatable = 0
+
+["Roundstart Revolution"]
+weight.1 = 2
+weight.2 = 4
+weight.3 = 5
+weight.4 = 5
+min_pop = 30
+repeatable = 0
+
+["Roundstart Spies"]
+weight.1 = 10
+weight.2 = 5
+weight.3 = 3
+weight.4 = 8
+min_pop = 10
+repeatable_weight_decrease = 4
+
+["Extended"]
+weight = 0
+min_pop = 0
+
+["Meteor"]
+weight = 0
+min_pop = 0
+
+["Nations"]
+weight = 0
+min_pop = 0
