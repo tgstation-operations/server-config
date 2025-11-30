@@ -14,10 +14,9 @@
 
 <p>You can join us on our Discord server <a href="https://discord.gg/tg13"><b><u>by clicking here.</b></u></a></p>
 
-<h2 style="color:red;">The following trial admin review threads are currently active:</h2>
+<!-- <h2 style="color:red;">The following trial admin review threads are currently active:</h2> -->
 
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=39335"><b>CookieCola</b></a></p>
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=39336"><b>JackMoloney</b></a></p>
+<!-- <p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=???"><b>???</b></a></p> -->
 
 <p>/tg/station is a crowd-funded non-profit! <a href="https://opencollective.com/tgstation13">Consider donating a few dollars monthly on OpenCollective to help us keep the lights on!</a></p>
 
