@@ -488,7 +488,7 @@ DEFAULT_VIEW 19x15
 DEFAULT_VIEW_SQUARE 15x15
 
 ## Enable automatic profiling - Byond 513.1506 and newer only.
-#AUTO_PROFILE
+AUTO_PROFILE
 
 ## Determines the interval between each saved profiler snapshot (in deciseconds).
 #PROFILER_INTERVAL 3000
