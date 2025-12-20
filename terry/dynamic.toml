@@ -345,6 +345,14 @@ weight.4 = 18
 min_pop = 3
 repeatable_weight_decrease = 4
 
+["Midround Blood Worm"]
+weight.1 = 3
+weight.2 = 3
+weight.3 = 4
+weight.4 = 6
+min_pop = 30
+repeatable = 0
+
 //Heavy midround rulesets
 ["Spiders"]
 weight.1 = 10
@@ -425,6 +433,28 @@ weight.3 = 4
 weight.4 = 4
 min_pop = 30
 repeatable_weight_decrease = 3
+
+["Midround Mass Changelings"]
+weight.1 = 1
+weight.2 = 5
+weight.3 = 5
+weight.4 = 6
+min_pop = 25
+repeatable_weight_decrease = 4
+repeatable = 1
+min_antag_cap = 2
+max_antag_cap = 3
+
+["Midround Mass Traitors"]
+weight.1 = 8
+weight.2 = 13
+weight.3 = 13
+weight.4 = 8
+min_pop = 15
+repeatable_weight_decrease = 8
+repeatable = 1
+min_antag_cap = 2
+max_antag_cap = 3
 
 //unused roundstart modes
 ["Extended"]
