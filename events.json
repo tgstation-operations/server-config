@@ -13,5 +13,8 @@
     },    
     "Supermatter Surge": {
         "min_players": 15
+    },
+    "Bureaucratic Error":{
+        "min_players": 69
     }
 }
