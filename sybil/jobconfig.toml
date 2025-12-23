@@ -62,7 +62,7 @@
 "# Total Positions" = 3
 
 [CAPTAIN]
-"# Human Authority Whitelist Setting" = "HUMANS_ONLY"
+"Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 180
 "# Required Account Age" = 14
 "# Required Character Age" = 0
@@ -229,7 +229,7 @@
 "# Total Positions" = 1
 
 [RESEARCH_DIRECTOR]
-"# Human Authority Whitelist Setting" = "HUMANS_ONLY"
+"Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 180
 "# Required Account Age" = 7
 "# Required Character Age" = 0
