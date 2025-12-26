@@ -257,10 +257,11 @@ min_pop = 10
 repeatable_weight_decrease = 5
 
 ["Nations"]
-weight.1 = 0
-weight.2 = 2
-weight.3 = 0
-weight.4 = 2
+##weight.1 = 0
+##weight.2 = 2
+##weight.3 = 0
+##weight.4 = 2
+weight = 0 ##temporary disable until we figure out policy for it
 min_pop = 40
 repeatable = 0
 
