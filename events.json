@@ -27,16 +27,16 @@
             "min_players": 10
     },
         "Aurora Caelus":{
-            "min_players": 1
+            "min_players": 0
     },
         "Brand Intelligence":{
             "min_players": 15
     },
         "Bureaucratic Error":{
-            "min_players": 1
+            "min_players": 69
     },
         "Camera Failure":{
-            "min_players": 1
+            "min_players": 0
     },
         "Carp Migration":{
             "min_players": 12
@@ -45,7 +45,7 @@
             "min_players": 20
     },
         "Communications Blackout":{
-            "min_players": 1
+            "min_players": 0
     },
         "Disease Outbreak: Advanced":{
             "min_players": 35
@@ -72,13 +72,13 @@
             "min_players": 1
     },
         "Grey Tide":{
-            "min_players": 5
+            "min_players": 15
     },
         "Ion Storm":{
             "min_players": 2
     },
         "Lone Operative":{
-            "min_players": 1
+            "min_players": 20
     },
         "Market Crash":{
             "min_players": 1
@@ -87,7 +87,7 @@
             "min_players": 1
     },
         "Mice Migration":{
-            "min_players": 1
+            "min_players": 7
     },
         "Portal Storm: Syndicate Shocktroops":{
             "min_players": 15
@@ -99,7 +99,7 @@
             "min_players": 1
     },
         "Radiation Storm":{
-            "min_players": 1
+            "min_players": 15
     },
         "Random Heart Attack":{
             "min_players": 40
@@ -120,10 +120,10 @@
             "min_players": 25
     },
         "Shuttle Catastrophe":{
-            "min_players": 0
+            "min_players": 1
     },
         "Shuttle Insurance":{
-            "min_players": 0
+            "min_players": 1
     },
         "Space Dust: Minor":{
             "min_players": 1
@@ -141,16 +141,16 @@
             "min_players": 0
     },
         "Supermatter Surge":{
-            "min_players": 0
+            "min_players": 1
     },
         "Tram Malfunction":{
-            "min_players": 0
+            "min_players": 1
     },
         "Ventilation Clog: Critical":{
             "min_players": 15
     },
         "Ventilation Clog: Major":{
-            "min_players": 0
+            "min_players": 15
     },
         "Ventilation Clog: Minor":{
             "min_players": 0
