@@ -1,20 +1,168 @@
 {
-    "Anomaly: Gravitational (High Intensity)": {
-        "min_players": 15
+    "Anomaly: Dimensional":{
+        "min_players": 10
     },
-    "Gravity Generator Blackout": {
-        "min_players": 15
+        "Anomaly: Ectoplasmic Outburst":{
+            "min_players": 30
     },
-    "Grey Tide": {
-        "min_players": 15
+        "Anomaly: Energetic Flux":{
+            "min_players": 1
     },
-    "Radiation Storm": {
-        "min_players": 15
-    },    
-    "Supermatter Surge": {
-        "min_players": 15
+        "Anomaly: Gravitational":{
+            "min_players": 15
     },
-    "Bureaucratic Error":{
-        "min_players": 69
+        "Anomaly: Gravitational (High Intensity)":{
+            "min_players": 15
+    },
+        "Anomaly: Hyper-Energetic Flux":{
+            "min_players": 10
+    },
+        "Anomaly: Pyroclastic":{
+            "min_players": 5
+    },
+        "Anomaly: Vortex":{
+            "min_players": 20
+    },
+        "Anomaly: Bioscrambler":{
+            "min_players": 10
+    },
+        "Aurora Caelus":{
+            "min_players": 1
+    },
+        "Brand Intelligence":{
+            "min_players": 15
+    },
+        "Bureaucratic Error":{
+            "min_players": 1
+    },
+        "Camera Failure":{
+            "min_players": 1
+    },
+        "Carp Migration":{
+            "min_players": 12
+    },
+        "Chasmic Earthquake":{
+            "min_players": 20
+    },
+        "Communications Blackout":{
+            "min_players": 1
+    },
+        "Disease Outbreak: Advanced":{
+            "min_players": 35
+    },
+        "Disease Outbreak: Classic":{
+            "min_players": 10
+    },
+        "Dynamic Tweak":{
+            "min_players": 1
+    },
+        "Electrical Storm":{
+            "min_players": 5
+    },
+        "Fake Virus":{
+            "min_players": 1
+    },
+        "False Alarm":{
+            "min_players": 1
+    },
+        "Gravity Generator Blackout":{
+            "min_players": 15
+    },
+        "Grid Check":{
+            "min_players": 1
+    },
+        "Grey Tide":{
+            "min_players": 5
+    },
+        "Ion Storm":{
+            "min_players": 2
+    },
+        "Lone Operative":{
+            "min_players": 1
+    },
+        "Market Crash":{
+            "min_players": 1
+    },
+        "Mass Hallucination":{
+            "min_players": 1
+    },
+        "Mice Migration":{
+            "min_players": 1
+    },
+        "Portal Storm: Syndicate Shocktroops":{
+            "min_players": 15
+    },
+        "Processor Overload":{
+            "min_players": 20
+    },
+        "Radiation Leak":{
+            "min_players": 1
+    },
+        "Radiation Storm":{
+            "min_players": 1
+    },
+        "Random Heart Attack":{
+            "min_players": 40
+    },
+        "Random Human-level Intelligence":{
+            "min_players": 1
+    },
+        "Sandstorm: Directional":{
+            "min_players": 35
+    },
+        "Scrubber Overflow: Catastrophic":{
+            "min_players": 35
+    },
+        "Scrubber Overflow: Normal":{
+            "min_players": 10
+    },
+        "Scrubber Overflow: Threatening":{
+            "min_players": 25
+    },
+        "Shuttle Catastrophe":{
+            "min_players": 0
+    },
+        "Shuttle Insurance":{
+            "min_players": 0
+    },
+        "Space Dust: Minor":{
+            "min_players": 1
+    },
+        "Spontaneous Brain Trauma":{
+            "min_players": 13
+    },
+        "Station-wide Human-level Intelligence":{
+            "min_players": 1
+    },
+        "Stray Cargo Pod":{
+            "min_players": 0
+    },
+        "Stray Syndicate Cargo Pod":{
+            "min_players": 0
+    },
+        "Supermatter Surge":{
+            "min_players": 0
+    },
+        "Tram Malfunction":{
+            "min_players": 0
+    },
+        "Ventilation Clog: Critical":{
+            "min_players": 15
+    },
+        "Ventilation Clog: Major":{
+            "min_players": 0
+    },
+        "Ventilation Clog: Minor":{
+            "min_players": 0
+    },
+        "Ventilation Clog: Strange":{
+            "min_players": 0
+    },
+        "Wisdom Cow":{
+            "min_players": 1
+    },
+        "Wormholes":{
+            "min_players": 2
     }
+
 }
