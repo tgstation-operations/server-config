@@ -80,3 +80,6 @@ ENABLE_NIGHT_SHIFTS
 
 # made per server and only on manuel due to its pop caps
 KICK_INACTIVE
+
+## ""temporary"" band-aid fix to stop midround hanging?
+ROUNDS_UNTIL_HARD_RESTART 0
