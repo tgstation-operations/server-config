@@ -75,7 +75,7 @@
             "min_players": 15
     },
         "Ion Storm":{
-            "min_players": 2
+            "min_players": 15
     },
         "Lone Operative":{
             "min_players": 20
@@ -141,7 +141,7 @@
             "min_players": 0
     },
         "Supermatter Surge":{
-            "min_players": 1
+            "min_players": 15
     },
         "Tram Malfunction":{
             "min_players": 1
