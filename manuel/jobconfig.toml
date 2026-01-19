@@ -221,7 +221,7 @@
 "# Total Positions" = 1
 
 [QUARTERMASTER]
-"Human Authority Whitelist Setting" = "HUMANS_ONLY"
+"Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
 "# Playtime Requirements" = 0
 "# Required Account Age" = 7
 "# Required Character Age" = 0
