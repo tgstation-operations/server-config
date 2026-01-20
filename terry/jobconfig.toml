@@ -91,7 +91,7 @@
 "# Total Positions" = 2
 
 [CHIEF_ENGINEER]
-"Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
+"Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 180
 "# Required Account Age" = 7
 "# Required Character Age" = 0
@@ -99,7 +99,7 @@
 "# Total Positions" = 1
 
 [CHIEF_MEDICAL_OFFICER]
-"Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
+"Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 180
 "# Required Account Age" = 7
 "# Required Character Age" = 0
@@ -156,7 +156,7 @@
 "# Total Positions" = 2
 
 [HEAD_OF_PERSONNEL]
-"Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
+"Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 180
 "# Required Account Age" = 10
 "# Required Character Age" = 0
@@ -164,7 +164,7 @@
 "# Total Positions" = 1
 
 [HEAD_OF_SECURITY]
-"Human Authority Whitelist Setting" = "NON_HUMANS_ALLOWED"
+"Human Authority Whitelist Setting" = "HUMANS_ONLY"
 "# Playtime Requirements" = 300
 "# Required Account Age" = 14
 "# Required Character Age" = 0
