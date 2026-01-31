@@ -10,7 +10,6 @@ $include map_vote.txt
 
 # Includes for files symlinked from agenix secret files
 $include tts_secrets.txt
-$include webhooks.txt
 $include comms.txt
 $include dbconfig.txt
 
