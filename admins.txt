@@ -18,4 +18,3 @@ ninjanomnom = HeadCoder
 ## Headmins
 isratosh = HeadAdmin
 maxipat = HeadAdmin
-iansdoor = HeadAdmin
