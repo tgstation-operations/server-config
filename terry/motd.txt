@@ -21,4 +21,6 @@
 
 <p>/tg/station is a crowd-funded non-profit! <a href="https://opencollective.com/tgstation13">Consider donating a few dollars monthly on OpenCollective to help us keep the lights on!</a></p>
 
-<!-- <h3> Notice Board: </h3> -->
+<h3> Notice Board: </h3>
+
+<p style="color:red;"><b>• The Headmin Elections are currently <a href="https://forums.tgstation13.org/viewforum.php?f=38"><b><u>underway here.</b></u></a></p>

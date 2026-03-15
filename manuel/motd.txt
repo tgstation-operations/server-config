@@ -22,6 +22,7 @@
 <p>/tg/station is a crowd-funded non-profit! <a href="https://opencollective.com/tgstation13">Consider donating a few dollars monthly on OpenCollective to help us keep the lights on!</a></p>
 
 <h3> Notice Board: </h3>
+<p style="color:red;"><b>• The Headmin Elections are currently <a href="https://forums.tgstation13.org/viewforum.php?f=38"><b><u>underway here.</b></u></a></p>
 
 <font size="6"><p style="color:red;"><b>• HEY! LISTEN! THE RULES ARE DIFFERENT HERE!</p></font>
 <p style="color:blue;"><b>You're currently on the /tg/station roleplay server. This is intended to be a higher-roleplay environment than the other servers, and more importantly there are different rules to abide by here. If roleplaying isn't your style, you can use the Server Hop command to go to any other server, which all still operate on the regular rules. Have fun!</p>
