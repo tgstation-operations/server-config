@@ -12,6 +12,7 @@ $include map_vote.txt
 $include tts_secrets.txt
 $include comms.txt
 $include dbconfig.txt
+$include webhooks.txt
 
 # Includes for server-specific configs (sybil, terry and manuel) are located at the end of the file
 
