@@ -41,6 +41,9 @@ ADMINHELP_WEBHOOK_NAME Lord Terry
 MOTD motd.txt
 #MOTD motd_extra.txt
 
+## Path from the config folder to the policy json. Uncomment to use server's policy.json instead of global.
+## POLICY_JSON_PATH terry/policy.json
+
 ## Moved to per-server config so event hall can opt out
 ALLOW_RANDOM_EVENTS
 ROUNDSTART_AWAY
