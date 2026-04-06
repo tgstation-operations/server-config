@@ -53,6 +53,9 @@ ADMINHELP_WEBHOOK_NAME Sir Manuel
 MOTD motd.txt
 #MOTD motd_extra.txt
 
+## Path from the config folder to the policy json
+POLICY_JSON_PATH manuel/policy.json
+
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
 HARD_POPCAP 69
 
