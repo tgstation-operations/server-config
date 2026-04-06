@@ -41,8 +41,8 @@ ADMINHELP_WEBHOOK_NAME Madame Sybil
 MOTD motd.txt
 #MOTD motd_extra.txt
 
-## Path from the config folder to the policy json
-POLICY_JSON_PATH sybil/policy.json
+## Path from the config folder to the policy json. Uncomment to use server's policy.json instead of global.
+## POLICY_JSON_PATH sybil/policy.json
 
 ## Headmin decision to enable Sybil respawn as different character after 20 minutes dead time
 ## 2 = Can respawn if choosing a different character
