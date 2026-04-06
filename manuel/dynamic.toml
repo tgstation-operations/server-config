@@ -234,7 +234,7 @@ weight.2 = 8
 weight.3 = 8
 weight.4 = 13
 min_pop = 23
-repeatable_weight_decrease = 3
+repeatable = 0
 
 ["Roundstart Wizard"]
 weight.1 = 1
