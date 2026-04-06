@@ -623,6 +623,9 @@ UPLOAD_LIMIT_ADMIN 5242880
 
 FORUM_LINK_URI https://forums.tgstation13.org/linkbyondaccount.php
 
+## Path from the config folder to the policy json
+POLICY_JSON_PATH policy.json
+
 # Includes for modular server-specific stuff
 $include manuel/config.txt
 $include sybil/config.txt
