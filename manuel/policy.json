@@ -18,6 +18,7 @@
 	"/datum/antagonist/nightmare":"<span class='policy'>\nYou are an <b>UNRESTRICTED antagonist</b>, you're free to kill anyone when and how you want. Remember, you're here to create a story and make the round interesting. See Roleplay Rule 5.</span>",
 	"/datum/antagonist/pirate":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b>, see Roleplay Rule 5. Your goal is to plunder the station's wealth, not depopulate it.</span>",
 	"/datum/antagonist/revenant":"<span class='policy'>\nYou are an <b>UNRESTRICTED antagonist</b>, you're free to kill anyone when and how you want. Remember, you're here to create a story and make the round interesting. See Roleplay Rule 5.</span>",
+	"/datum/antagonist/voidwalker":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b>, your main goal should be kidnapping people and imparting truth of the void unto them, rather than killing.",
 	"/datum/antagonist/cult":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b>, however you can murder anyone you need to complete your objective.</span>", 
 	"/datum/antagonist/rev":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b>, however you can murder anyone you need to complete your objective.</span>",
 	"Captain":"<span class='policy'>You are a <b>head of staff</b>. If you need to leave, please inform an administrator. \nBe a leader the station needs. \nMore information on this job is available at: https://wiki.tgstation13.org/Captain </span>",
