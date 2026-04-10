@@ -3,7 +3,7 @@
 	"Where is policy shown?": "Most, but not all policy text, is displayed when releveant, such as on gaining a role.",
 	"What can I all set policy of?": "Antagonist typepaths, mob typepaths, species typepaths, special roles, and some extra special policy keys are all valid. Consult the code.",
 	"/datum/antagonist/traitor":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b>, see Roleplay Rule 5. Remember, your objective is not to kill the most people possible, but to make an interesting story.</span>",
-	"/datum/antagonist/heretic":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b> until ascension, see Roleplay Rule 5. Remember, your objective is not to kill the most people possible, but to make an interesting story.</span></span>",
+	"/datum/antagonist/heretic":"<span class='policy'>\nYou are a <b>RESTRICTED antagonist</b> until ascension, see Roleplay Rule 5. Remember, your objective is not to kill the most people possible, but to make an interesting story.</span>",
 	"/datum/antagonist/obsessed":"<span class='policy'>\nThis role is <b>NOT a FULL antagonist</b>, only to the extent of your objectives. Remember, make an interesting story.</span>",
 	"/datum/antagonist/evil_clone":"<span class='policy'>\nThis role is <b>RESTRICTED</b> to its objective - killing other clones, do not seek to maximise damage or antagonise beyond what is reasonably necessary in persuit of the objective.</i></span>",
 	"/datum/antagonist/spy":"<span class='policy'>\nYou are a<b>RESTRICTED antagonist</b>, see Roleplay Rule 5. Remember, your objective is not to kill the most people possible, but to make an interesting story.</span>",
