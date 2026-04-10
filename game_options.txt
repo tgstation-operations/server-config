@@ -548,3 +548,8 @@ SPY_HARD_REWARD_TC_THRESHOLD 15
 
 ## Minimum time before a heretic can ascend, in minutes
 # MINIMUM_ASCENSION_TIME 3
+
+## Default voices for computers/tram announcements
+TTS_TRAM_ANNOUNCER_OVERRIDE Woman (Tram Announcer)
+
+TTS_COMPUTER_VOICE_OVERRIDE Woman (Tram Announcer)
