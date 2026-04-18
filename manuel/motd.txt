@@ -25,9 +25,6 @@ If you understand code, you can read through ./.github/workflows/autoReviewThrea
 
 <!-- REVIEW THREADS ANCHOR START -->
 
-<h2 style="color:red;">The following trial admin review threads are currently active:</h2>
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=39624"><b>nobodyofimportance</b></a></p>
-<p style="color:blue;"><a href="https://forums.tgstation13.org/viewtopic.php?t=39625"><b>thesamon</b></a></p>
 
 <!-- REVIEW THREADS ANCHOR END -->
 
