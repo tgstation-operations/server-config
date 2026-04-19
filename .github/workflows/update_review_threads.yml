@@ -35,7 +35,6 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add '**/motd.txt'
-          git commit -m "update trialmin threads list in motd.txt"
-          git push
+          if [[ ! -z $(git diff --cached) ]]; then git commit -m "update trialmin threads list in motd.txt"; git push; fi
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
