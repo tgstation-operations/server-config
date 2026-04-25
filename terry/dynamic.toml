@@ -193,12 +193,12 @@ min_pop = 30
 repeatable = 0
 
 ["Roundstart Blood Brothers"]
-weight.1 = 19
-weight.2 = 15
-weight.3 = 7
-weight.4 = 4
+weight.1 = 5
+weight.2 = 4
+weight.3 = 3
+weight.4 = 2
 min_pop = 10
-repeatable_weight_decrease = 6
+repeatable = 0
 
 ["Roundstart Changeling"]
 weight.1 = 7
