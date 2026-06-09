@@ -38,8 +38,8 @@ ruleset_type_settings.roundstart.low = 1
 ruleset_type_settings.roundstart.high = 2
 ruleset_type_settings.roundstart.half_range_pop_threshold = 18
 ruleset_type_settings.roundstart.full_range_pop_threshold = 21
-ruleset_type_settings.light_midround.low = 2
-ruleset_type_settings.light_midround.high = 3
+ruleset_type_settings.light_midround.low = 1
+ruleset_type_settings.light_midround.high = 2
 ruleset_type_settings.light_midround.half_range_pop_threshold = 18
 ruleset_type_settings.light_midround.full_range_pop_threshold = 26
 ruleset_type_settings.light_midround.time_threshold = 35
@@ -65,11 +65,11 @@ name = "Orange Star"
 min_pop = 18
 weight = 42
 advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
-ruleset_type_settings.roundstart.low = 2
+ruleset_type_settings.roundstart.low = 1
 ruleset_type_settings.roundstart.high = 2
 ruleset_type_settings.roundstart.half_range_pop_threshold = 18
 ruleset_type_settings.roundstart.full_range_pop_threshold = 22
-ruleset_type_settings.light_midround.low = 3
+ruleset_type_settings.light_midround.low = 1
 ruleset_type_settings.light_midround.high = 3
 ruleset_type_settings.light_midround.half_range_pop_threshold = 18
 ruleset_type_settings.light_midround.full_range_pop_threshold = 22
@@ -93,10 +93,10 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 
 ["Medium-High Chaos"]
 name = "Red Star"
-min_pop = 23
+min_pop = 30
 weight = 20
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
-ruleset_type_settings.roundstart.low = 3
+ruleset_type_settings.roundstart.low = 1
 ruleset_type_settings.roundstart.high = 4
 ruleset_type_settings.roundstart.half_range_pop_threshold = 15
 ruleset_type_settings.roundstart.full_range_pop_threshold = 23
@@ -124,7 +124,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 10
 
 ["High Chaos"]
 name = "Black Orbit"
-min_pop = 23
+min_pop = 30
 weight = 1
 advisory_report = "Advisory Level: <b>Black Orbit</b></center><BR>Your sector's advisory level is Black Orbit. Multiple jamming signals in your region limit intelligence and render traditional classifications inapplicable.  Analysis suggests a mask to cover a large scale mobilisation in the region, or multiple significant independent threats.  Credible information passed to us by GDI suggests that the Syndicate is preparing to mount a major concerted offensive on Nanotrasen assets in the Spinward Sector to cripple our foothold there. All stations should remain on high alert and prepared to defend themselves."
 ruleset_type_settings.roundstart.low = 2
@@ -229,11 +229,13 @@ min_pop = 23
 repeatable = 0
 
 ["Roundstart Heretics"]
-weight.1 = 6
+weight.1 = 5
 weight.2 = 8
 weight.3 = 8
 weight.4 = 13
 min_pop = 23
+min_antag_cap = 1
+max_antag_cap = 2
 repeatable = 0
 
 ["Roundstart Wizard"]
@@ -245,7 +247,7 @@ min_pop = 23
 repeatable = 0
 
 ["Roundstart Blood Cult"]
-weight.1 = 1
+weight.1 = 0
 weight.2 = 3
 weight.3 = 5
 weight.4 = 5
@@ -253,7 +255,7 @@ min_pop = 23
 repeatable = 0
 
 ["Roundstart Nukeops"]
-weight.1 = 1
+weight.1 = 0
 weight.2 = 3
 weight.3 = 4
 weight.4 = 5
@@ -261,7 +263,7 @@ min_pop = 23
 repeatable = 0
 
 ["Roundstart Revolution"]
-weight.1 = 2
+weight.1 = 0
 weight.2 = 5
 weight.3 = 7
 weight.4 = 7
@@ -407,7 +409,7 @@ min_pop = 30
 repeatable_weight_decrease = 2
 
 ["Midround Nukeops"]
-weight.1 = 2
+weight.1 = 1
 weight.2 = 1
 weight.3 = 2
 weight.4 = 5
@@ -415,7 +417,7 @@ min_pop = 30
 repeatable = 0
 
 ["Blob"]
-weight.1 = 2
+weight.1 = 1
 weight.2 = 2
 weight.3 = 3
 weight.4 = 3
@@ -423,7 +425,7 @@ min_pop = 30
 repeatable_weight_decrease = 3
 
 ["Xenomorph"]
-weight.1 = 10
+weight.1 = 5
 weight.2 = 5
 weight.3 = 8
 weight.4 = 5
