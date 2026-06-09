@@ -32,9 +32,9 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 ["Low Chaos"]
 name = "Yellow Star"
 min_pop = 0
-weight = 34
+weight = 36
 advisory_report = "Advisory Level: <b>Yellow Star</b></center><BR>Your sector's advisory level is Yellow Star. Surveillance shows a credible risk of enemy attack against our assets in the Spinward Sector. We advise a heightened level of security alongside maintaining vigilance against potential threats."
-ruleset_type_settings.roundstart.low = 1
+ruleset_type_settings.roundstart.low = 0
 ruleset_type_settings.roundstart.high = 2
 ruleset_type_settings.roundstart.half_range_pop_threshold = 18
 ruleset_type_settings.roundstart.full_range_pop_threshold = 21
@@ -63,7 +63,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 30
 ["Low-Medium Chaos"]
 name = "Orange Star"
 min_pop = 18
-weight = 42
+weight = 45
 advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
 ruleset_type_settings.roundstart.low = 1
 ruleset_type_settings.roundstart.high = 2
@@ -94,9 +94,9 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 ["Medium-High Chaos"]
 name = "Red Star"
 min_pop = 30
-weight = 20
+weight = 15
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
-ruleset_type_settings.roundstart.low = 1
+ruleset_type_settings.roundstart.low = 2
 ruleset_type_settings.roundstart.high = 4
 ruleset_type_settings.roundstart.half_range_pop_threshold = 15
 ruleset_type_settings.roundstart.full_range_pop_threshold = 23
@@ -118,7 +118,7 @@ ruleset_type_settings.latejoin.low = 2
 ruleset_type_settings.latejoin.high = 3
 ruleset_type_settings.latejoin.half_range_pop_threshold = 15
 ruleset_type_settings.latejoin.full_range_pop_threshold = 21
-ruleset_type_settings.latejoin.time_threshold = 65
+ruleset_type_settings.latejoin.time_threshold = 50
 ruleset_type_settings.latejoin.execution_cooldown_low = 5
 ruleset_type_settings.latejoin.execution_cooldown_high = 10
 
@@ -149,7 +149,7 @@ ruleset_type_settings.latejoin.low = 2
 ruleset_type_settings.latejoin.high = 3
 ruleset_type_settings.latejoin.half_range_pop_threshold = 15
 ruleset_type_settings.latejoin.full_range_pop_threshold = 21
-ruleset_type_settings.latejoin.time_threshold = 55
+ruleset_type_settings.latejoin.time_threshold = 50
 ruleset_type_settings.latejoin.execution_cooldown_low = 5
 ruleset_type_settings.latejoin.execution_cooldown_high = 10
 
