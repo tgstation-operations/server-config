@@ -1,0 +1,68 @@
+{
+	"/datum/customer_data/american": [
+		"Man (Professional Hater)",
+		"Man (Insane Veteran)",
+		"Man (Baseball Addict)",
+		"Man (Sports Coach)",
+		"Man (Felon)",
+		"Man (Mechanic)",
+		"Woman (Defense Contractor)",
+		"Woman (Midwestern)",
+		"Woman (Pit Boss)"
+	],
+	"/datum/customer_data/italian": [
+		"Man (Baseball Wanna-be)",
+		"Man (Baseball Coach)",
+		"Woman (Carnie)"
+	],
+	"/datum/customer_data/french": [
+		"Man (French)",
+		"Woman (French)",
+		"Woman (Infirmary Staff)"
+	],
+	"/datum/customer_data/japanese": [
+		"Woman (Idol)",
+		"Woman (Hostess)",
+		"Woman (Superhero Actor)",
+		"Woman (Hacker)",
+		"Woman (Summoner)"
+	],
+	"/datum/customer_data/japanese/salaryman": [
+		"Woman (Gangster)",
+		"Man (Ninja)",
+		"Man (Widowed)",
+		"Man (Militia Lieutenant)"
+	],
+	"/datum/customer_data/moth": [
+		"Woman (Insectoid)",
+		"Woman (Matriarch)"
+	],
+	"/datum/customer_data/mexican": [
+		"Man (Sicario)",
+		"Woman (Golem)"
+	],
+	"/datum/customer_data/british": [
+		"Man (Dwarf King)",
+		"Man (Crook)",
+		"Woman (Time Traveler)",
+		"Man (Master Chef)"
+	],
+	"/datum/customer_data/british/gent": [
+		"Man (Dwarf King)",
+		"Man (Crook)",
+		"Woman (Time Traveler)",
+		"Man (Master Chef)"
+	],
+	"/datum/customer_data/british/bobby": [
+		"Man (Dwarf King)",
+		"Man (Crook)",
+		"Woman (Time Traveler)",
+		"Man (Master Chef)"
+	],
+	"/datum/customer_data/malfunction": [
+		"Man (Treasure Fan)",
+		"Man (Capitalist)",
+		"Man (Slime)",
+		"Man (The Best)"
+	]
+}
