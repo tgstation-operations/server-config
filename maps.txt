@@ -37,7 +37,7 @@ map deltastation
 endmap
 
 map icebox
-	#minplayers 25
+	minplayers 15
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38605
 endmap
