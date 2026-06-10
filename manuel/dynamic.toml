@@ -205,7 +205,7 @@ min_pop = 8
 repeatable_weight_decrease = 6
 
 ["Roundstart Changeling"]
-weight.1 = 7
+weight.1 = 9
 weight.2 = 9
 weight.3 = 9
 weight.4 = 17
@@ -213,7 +213,7 @@ min_pop = 15
 repeatable_weight_decrease = 3
 
 ["Roundstart Malfunctioning AI"]
-weight.1 = 1
+weight.1 = 0
 weight.2 = 3
 weight.3 = 4
 weight.4 = 5
@@ -229,7 +229,7 @@ min_pop = 23
 repeatable = 0
 
 ["Roundstart Heretics"]
-weight.1 = 5
+weight.1 = 3
 weight.2 = 8
 weight.3 = 8
 weight.4 = 13
@@ -239,7 +239,7 @@ max_antag_cap = 2
 repeatable = 0
 
 ["Roundstart Wizard"]
-weight.1 = 1
+weight.1 = 0
 weight.2 = 1
 weight.3 = 3
 weight.4 = 5
@@ -313,8 +313,8 @@ min_pop = 15
 repeatable_weight_decrease = 4
 
 ["Light Pirates"]
-weight.1 = 2
-weight.2 = 3
+weight.1 = 5
+weight.2 = 5
 weight.3 = 3
 weight.4 = 5
 min_pop = 15
@@ -353,7 +353,7 @@ min_pop = 30
 repeatable_weight_decrease = 3
 
 ["Midround Blood Worm"]
-weight.1 = 3
+weight.1 = 1
 weight.2 = 3
 weight.3 = 4
 weight.4 = 6
@@ -363,7 +363,7 @@ repeatable = 0
 ##heavymid rulesets
 ##The reason of why midround mass rulesets exist is because the heavier threats were not being taken.
 ["Midround Mass Traitors"]
-weight.1 = 7
+weight.1 = 10
 weight.2 = 11
 weight.3 = 10
 weight.4 = 7
@@ -385,8 +385,8 @@ min_antag_cap = 2
 max_antag_cap = 3
 
 ["Heavy Pirates"]
-weight.1 = 3
-weight.2 = 3
+weight.1 = 5
+weight.2 = 5
 weight.3 = 3
 weight.4 = 3
 min_pop = 25
@@ -425,7 +425,7 @@ min_pop = 30
 repeatable_weight_decrease = 3
 
 ["Xenomorph"]
-weight.1 = 5
+weight.1 = 8
 weight.2 = 5
 weight.3 = 8
 weight.4 = 5
@@ -449,7 +449,7 @@ min_pop = 30
 repeatable_weight_decrease = 5
 
 ["Midround Malfunctioning AI"]
-weight.1 = 5
+weight.1 = 1
 weight.2 = 2
 weight.3 = 5
 weight.4 = 5
@@ -457,7 +457,7 @@ min_pop = 30
 repeatable = 0
 
 ["Blob Infection"]
-weight.1 = 4
+weight.1 = 1
 weight.2 = 2
 weight.3 = 5
 weight.4 = 5
