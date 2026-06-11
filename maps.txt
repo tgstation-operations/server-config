@@ -44,6 +44,7 @@ endmap
 
 map metastation
 	#minplayers 25
+    default
 	#voteweight 0.5
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38603
