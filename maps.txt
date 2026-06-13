@@ -22,14 +22,6 @@ map catwalkstation
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?p=745280
 endmap
 
-map birdshot
-	#default
-	maxplayers 75
-	minplayers 30
-	#votable
-	disabled
-endmap
-
 map deltastation
 	minplayers 15
 	votable
