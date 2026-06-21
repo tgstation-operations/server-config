@@ -1,0 +1,37 @@
+<!-- Most valid html will work in here, but you have to use URL links for images. -->
+
+<body link="blue">
+
+<h1>Welcome to /tg/station's SS13!</h1>
+
+<h2>Please use the following links for your information:</h2>
+
+<p>To avoid getting banned, make sure you read the <a href="https://wiki.tgstation13.org/Rules"><b><u>Rules</b></u></a></p>
+
+<p>For a host of useful information, take a look at the <a href="https://wiki.tgstation13.org/"><b><u>Wiki</b></u></a></p>
+
+<p>You can find the status of all of servers at our <a href="https://tgstation13.org/"><b><u>Homepage</b></u></a></p>
+
+<p>You can join us on our Discord server <a href="https://discord.gg/tg13"><b><u>by clicking here.</b></u></a></p>
+
+<!--
+>>Important Info For Headmins<<
+
+The anchor comments below ensures that the auto trialmin review thread action knows where to paste active review threads into the motd.txt.
+Note that anything you write between both comments will get deleted when the action runs again.
+Feel free move it to wherever you want in this file, but please ensure that it exists or add a skip comment in its place.
+If you understand code, you can read through ./.github/workflows/autoReviewThread.js to see how the system works.
+-->
+
+<!-- REVIEW THREADS ANCHOR START -->
+
+
+<!-- REVIEW THREADS ANCHOR END -->
+
+<p>/tg/station is a crowd-funded non-profit! <a href="https://opencollective.com/tgstation13">Consider donating a few dollars monthly on OpenCollective to help us keep the lights on!</a></p>
+
+<!-- <h3> Notice Board: </h3> -->
+
+<font size="6"><p style="color:red;"><b>• HEY! LISTEN! THE RULES ARE DIFFERENT HERE!</p></font>
+<p style="color:blue;"><b>You're currently on the /tg/station roleplay server. This is intended to be a higher-roleplay environment than the other servers, and more importantly there are different rules to abide by here. If roleplaying isn't your style, you can use the Server Hop command to go to any other server, which all still operate on the regular rules. Have fun!</p>
+<p style="color:red;"><a href="https://wiki.tgstation13.org/Rules#Roleplay_Rules"><b>Click here to read the roleplaying rules.</a></b></p>
