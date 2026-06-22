@@ -628,6 +628,7 @@ POLICY_JSON_PATH policy.json
 
 # Includes for modular server-specific stuff
 $include manuel/config.txt
+$include manuel-2/config.txt
 $include sybil/config.txt
 $include terry/config.txt
 $include eventhallus/config.txt
