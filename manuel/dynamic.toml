@@ -189,7 +189,7 @@ min_pop = 8
 repeatable_weight_decrease = 6
 
 ["Roundstart Spies"]
-weight.1 = 20
+weight.1 = 15
 weight.2 = 15
 weight.3 = 6
 weight.4 = 12
