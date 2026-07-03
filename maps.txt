@@ -54,10 +54,10 @@ map nebulastation
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=36377
 endmap
 
-map wawastation
-	minplayers 15
+map kilostation
+	maxplayers 40
 	votable
-	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38490
+	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=39750
 endmap
 
 # This is here so test-merged event maps show up in change-map verb. The map's json file must be named eventmap.json for it work.  
