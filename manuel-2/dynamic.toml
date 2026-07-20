@@ -362,7 +362,7 @@ repeatable = 0
 
 ##heavymid rulesets
 ##The reason of why midround mass rulesets exist is because the heavier threats were not being taken.
-["Midround Mass Traitors"]
+["Mass Traitors"]
 weight.1 = 10
 weight.2 = 11
 weight.3 = 10
@@ -373,7 +373,7 @@ repeatable = 1
 min_antag_cap = 2
 max_antag_cap = 3
 
-["Midround Mass Changelings"]
+["Mass Changelings"]
 weight.1 = 1
 weight.2 = 5
 weight.3 = 5
