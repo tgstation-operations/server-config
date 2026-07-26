@@ -387,7 +387,7 @@ CLIENT_WARN_POPUP
 CLIENT_ERROR_VERSION 516
 CLIENT_ERROR_BUILD 1659
 
-CLIENT_WARN_MESSAGE The Escape menu does not properly work on this version of BYOND, please upgrade to the latest version available at 
+CLIENT_WARN_MESSAGE The Escape menu's transparent functionality does not properly work on this version of BYOND.
 CLIENT_ERROR_MESSAGE Your version of byond is not supported. Please upgrade.
 
 ## TOPIC RATE LIMITING
