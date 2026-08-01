@@ -97,7 +97,7 @@ min_pop = 30
 weight = 15
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
 ruleset_type_settings.roundstart.low = 2
-ruleset_type_settings.roundstart.high = 4
+ruleset_type_settings.roundstart.high = 3
 ruleset_type_settings.roundstart.half_range_pop_threshold = 15
 ruleset_type_settings.roundstart.full_range_pop_threshold = 23
 ruleset_type_settings.light_midround.low = 2
@@ -190,7 +190,7 @@ repeatable_weight_decrease = 6
 
 ["Roundstart Spies"]
 weight.1 = 15
-weight.2 = 11
+weight.2 = 15
 weight.3 = 6
 weight.4 = 12
 min_pop = 8
@@ -205,9 +205,9 @@ min_pop = 8
 repeatable_weight_decrease = 6
 
 ["Roundstart Changeling"]
-weight.1 = 9
-weight.2 = 9
-weight.3 = 9
+weight.1 = 10
+weight.2 = 10
+weight.3 = 10
 weight.4 = 17
 min_pop = 15
 repeatable_weight_decrease = 3
@@ -217,33 +217,33 @@ weight.1 = 0
 weight.2 = 3
 weight.3 = 4
 weight.4 = 5
-min_pop = 23
+min_pop = 30
 repeatable = 0
 
 ["Roundstart Blood Worm"]
 weight.1 = 3
-weight.2 = 4
-weight.3 = 4
+weight.2 = 6
+weight.3 = 6
 weight.4 = 6
-min_pop = 23
+min_pop = 25
 repeatable = 0
 
 ["Roundstart Heretics"]
-weight.1 = 3
-weight.2 = 8
-weight.3 = 8
+weight.1 = 5
+weight.2 = 10
+weight.3 = 10
 weight.4 = 13
-min_pop = 23
+min_pop = 25
 min_antag_cap = 1
 max_antag_cap = 2
 repeatable = 0
 
 ["Roundstart Wizard"]
 weight.1 = 0
-weight.2 = 1
+weight.2 = 3
 weight.3 = 3
 weight.4 = 5
-min_pop = 23
+min_pop = 25
 repeatable = 0
 
 ["Roundstart Blood Cult"]
@@ -251,7 +251,7 @@ weight.1 = 0
 weight.2 = 3
 weight.3 = 5
 weight.4 = 5
-min_pop = 23
+min_pop = 30
 repeatable = 0
 
 ["Roundstart Nukeops"]
@@ -259,22 +259,22 @@ weight.1 = 0
 weight.2 = 3
 weight.3 = 4
 weight.4 = 5
-min_pop = 23
+min_pop = 30
 repeatable = 0
 
 ["Roundstart Revolution"]
 weight.1 = 0
-weight.2 = 5
+weight.2 = 3
 weight.3 = 7
 weight.4 = 7
-min_pop = 23
+min_pop = 30
 repeatable = 0
 
 ##lightmid rulesets
 ##the clarity order is min_pop requirement
 ["Midround Obsessed"]
-weight.1 = 5
-weight.2 = 5
+weight.1 = 8
+weight.2 = 8
 weight.3 = 3
 weight.4 = 1
 min_pop = 10
@@ -282,7 +282,7 @@ repeatable_weight_decrease = 4
 
 ["Revenant"]
 weight.1 = 5
-weight.2 = 3
+weight.2 = 5
 weight.3 = 3
 weight.4 = 2
 min_pop = 10
@@ -297,8 +297,8 @@ min_pop = 10
 repeatable_weight_decrease = 4
 
 ["Midround Traitor"]
-weight.1 = 17
-weight.2 = 14
+weight.1 = 20
+weight.2 = 20
 weight.3 = 13
 weight.4 = 13
 min_pop = 8
@@ -329,7 +329,7 @@ min_pop = 15
 repeatable_weight_decrease = 5
 
 ["Abductors"]
-weight.1 = 5
+weight.1 = 1
 weight.2 = 5
 weight.3 = 5
 weight.4 = 4
@@ -349,7 +349,7 @@ weight.1 = 3
 weight.2 = 5
 weight.3 = 5
 weight.4 = 10
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 3
 
 ["Midround Blood Worm"]
@@ -397,7 +397,7 @@ weight.1 = 10
 weight.2 = 5
 weight.3 = 5
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 4
 
 ["Midround Wizard"]
@@ -426,9 +426,9 @@ repeatable_weight_decrease = 3
 
 ["Xenomorph"]
 weight.1 = 8
-weight.2 = 5
-weight.3 = 8
-weight.4 = 5
+weight.2 = 10
+weight.3 = 10
+weight.4 = 10
 min_pop = 30
 repeatable_weight_decrease = 4
 
@@ -441,9 +441,9 @@ min_pop = 30
 repeatable_weight_decrease = 4
 
 ["Space Ninja"]
-weight.1 = 10
-weight.2 = 10
-weight.3 = 5
+weight.1 = 8
+weight.2 = 8
+weight.3 = 10
 weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 5
