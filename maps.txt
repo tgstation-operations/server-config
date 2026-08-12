@@ -26,12 +26,14 @@ map deltastation
 	minplayers 15
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38604
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/deltastation
 endmap
 
 map icebox
 	minplayers 15
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38605
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/icebox
 endmap
 
 map metastation
@@ -40,12 +42,14 @@ map metastation
 	#voteweight 0.5
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=38603
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/metastation
 endmap
 
 map tramstation
 	minplayers 15
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=12729
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/tramstation
 endmap
 
 map nebulastation
@@ -58,6 +62,7 @@ map kilostation
 	maxplayers 40
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=39750
+	webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/kilostation
 endmap
 
 # This is here so test-merged event maps show up in change-map verb. The map's json file must be named eventmap.json for it work.  
