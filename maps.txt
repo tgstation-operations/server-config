@@ -49,7 +49,7 @@ map tramstation
 endmap
 
 map nebulastation
-	minplayers 45
+	minplayers 35
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=36377
 endmap
