@@ -62,7 +62,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 30
 
 ["Low-Medium Chaos"]
 name = "Orange Star"
-min_pop = 18
+min_pop = 0
 weight = 45
 advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
 ruleset_type_settings.roundstart.low = 1
@@ -93,7 +93,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 20
 
 ["Medium-High Chaos"]
 name = "Red Star"
-min_pop = 30
+min_pop = 25
 weight = 15
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
 ruleset_type_settings.roundstart.low = 2
@@ -124,7 +124,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 10
 
 ["High Chaos"]
 name = "Black Orbit"
-min_pop = 30
+min_pop = 25
 weight = 1
 advisory_report = "Advisory Level: <b>Black Orbit</b></center><BR>Your sector's advisory level is Black Orbit. Multiple jamming signals in your region limit intelligence and render traditional classifications inapplicable.  Analysis suggests a mask to cover a large scale mobilisation in the region, or multiple significant independent threats.  Credible information passed to us by GDI suggests that the Syndicate is preparing to mount a major concerted offensive on Nanotrasen assets in the Spinward Sector to cripple our foothold there. All stations should remain on high alert and prepared to defend themselves."
 ruleset_type_settings.roundstart.low = 2
@@ -181,23 +181,23 @@ repeatable = 0
 ##roundstart rulesets
 ##the clarity order is min_pop requirement
 ["Roundstart Traitor"]
-weight.1 = 25
-weight.2 = 28
-weight.3 = 13
+weight.1 = 20
+weight.2 = 20
+weight.3 = 20
 weight.4 = 21
 min_pop = 8
 repeatable_weight_decrease = 6
 
 ["Roundstart Spies"]
-weight.1 = 15
-weight.2 = 15
-weight.3 = 6
+weight.1 = 18
+weight.2 = 18
+weight.3 = 10
 weight.4 = 12
 min_pop = 8
 repeatable_weight_decrease = 4
 
 ["Roundstart Blood Brothers"]
-weight.1 = 19
+weight.1 = 18
 weight.2 = 15
 weight.3 = 7
 weight.4 = 4
@@ -217,7 +217,7 @@ weight.1 = 0
 weight.2 = 3
 weight.3 = 4
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable = 0
 
 ["Roundstart Blood Worm"]
@@ -242,7 +242,7 @@ repeatable = 0
 weight.1 = 0
 weight.2 = 3
 weight.3 = 3
-weight.4 = 5
+weight.4 = 10
 min_pop = 25
 repeatable = 0
 
@@ -250,23 +250,23 @@ repeatable = 0
 weight.1 = 0
 weight.2 = 3
 weight.3 = 5
-weight.4 = 5
-min_pop = 30
+weight.4 = 10
+min_pop = 25
 repeatable = 0
 
 ["Roundstart Nukeops"]
 weight.1 = 0
 weight.2 = 3
 weight.3 = 4
-weight.4 = 5
-min_pop = 30
+weight.4 = 10
+min_pop = 25
 repeatable = 0
 
 ["Roundstart Revolution"]
 weight.1 = 0
 weight.2 = 3
 weight.3 = 7
-weight.4 = 7
+weight.4 = 10
 min_pop = 30
 repeatable = 0
 
@@ -281,16 +281,16 @@ min_pop = 10
 repeatable_weight_decrease = 4
 
 ["Revenant"]
-weight.1 = 5
-weight.2 = 5
+weight.1 = 10
+weight.2 = 10
 weight.3 = 3
 weight.4 = 2
 min_pop = 10
 repeatable = 0
 
 ["Paradox Clone"]
-weight.1 = 8
-weight.2 = 8
+weight.1 = 10
+weight.2 = 10
 weight.3 = 10
 weight.4 = 10
 min_pop = 10
@@ -333,7 +333,7 @@ weight.1 = 1
 weight.2 = 5
 weight.3 = 5
 weight.4 = 4
-min_pop = 20
+min_pop = 30
 repeatable_weight_decrease = 3
 
 ["Fugitives"]
@@ -367,7 +367,7 @@ weight.1 = 10
 weight.2 = 11
 weight.3 = 10
 weight.4 = 7
-min_pop = 15
+min_pop = 25
 repeatable_weight_decrease = 8
 repeatable = 1
 min_antag_cap = 2
@@ -385,7 +385,7 @@ min_antag_cap = 2
 max_antag_cap = 3
 
 ["Heavy Pirates"]
-weight.1 = 5
+weight.1 = 1
 weight.2 = 5
 weight.3 = 3
 weight.4 = 3
@@ -394,7 +394,7 @@ repeatable_weight_decrease = 4
 
 ["Spiders"]
 weight.1 = 10
-weight.2 = 5
+weight.2 = 10
 weight.3 = 5
 weight.4 = 5
 min_pop = 25
@@ -405,7 +405,7 @@ weight.1 = 1
 weight.2 = 1
 weight.3 = 3
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 2
 
 ["Midround Nukeops"]
@@ -413,7 +413,7 @@ weight.1 = 1
 weight.2 = 1
 weight.3 = 2
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable = 0
 
 ["Blob"]
@@ -421,7 +421,7 @@ weight.1 = 1
 weight.2 = 2
 weight.3 = 3
 weight.4 = 3
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 3
 
 ["Xenomorph"]
@@ -429,7 +429,7 @@ weight.1 = 8
 weight.2 = 10
 weight.3 = 10
 weight.4 = 10
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 4
 
 ["Space Dragon"]
@@ -444,16 +444,16 @@ repeatable_weight_decrease = 4
 weight.1 = 8
 weight.2 = 8
 weight.3 = 10
-weight.4 = 5
-min_pop = 30
+weight.4 = 10
+min_pop = 25
 repeatable_weight_decrease = 5
 
 ["Midround Malfunctioning AI"]
 weight.1 = 1
-weight.2 = 2
-weight.3 = 5
-weight.4 = 5
-min_pop = 30
+weight.2 = 5
+weight.3 = 10  
+weight.4 = 10
+min_pop = 25
 repeatable = 0
 
 ["Blob Infection"]
@@ -461,7 +461,7 @@ weight.1 = 1
 weight.2 = 2
 weight.3 = 5
 weight.4 = 5
-min_pop = 30
+min_pop = 25
 repeatable_weight_decrease = 4
 
 ##unused roundstarts
