@@ -43,7 +43,7 @@ map metastation
 endmap
 
 map tramstation
-	minplayers 15
+	minplayers 30
 	votable
 	feedbacklink https://forums.tgstation13.org/viewtopic.php?t=12729
 endmap
