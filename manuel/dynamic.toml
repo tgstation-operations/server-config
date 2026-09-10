@@ -34,22 +34,22 @@ name = "Yellow Star"
 min_pop = 0
 weight = 36
 advisory_report = "Advisory Level: <b>Yellow Star</b></center><BR>Your sector's advisory level is Yellow Star. Surveillance shows a credible risk of enemy attack against our assets in the Spinward Sector. We advise a heightened level of security alongside maintaining vigilance against potential threats."
-ruleset_type_settings.roundstart.low = 0
+ruleset_type_settings.roundstart.low = 1
 ruleset_type_settings.roundstart.high = 2
 ruleset_type_settings.roundstart.half_range_pop_threshold = 18
 ruleset_type_settings.roundstart.full_range_pop_threshold = 21
-ruleset_type_settings.light_midround.low = 0
+ruleset_type_settings.light_midround.low = 1
 ruleset_type_settings.light_midround.high = 2
 ruleset_type_settings.light_midround.half_range_pop_threshold = 18
 ruleset_type_settings.light_midround.full_range_pop_threshold = 26
 ruleset_type_settings.light_midround.time_threshold = 35
 ruleset_type_settings.light_midround.execution_cooldown_low = 10
 ruleset_type_settings.light_midround.execution_cooldown_high = 15
-ruleset_type_settings.heavy_midround.low = 0
+ruleset_type_settings.heavy_midround.low = 1 
 ruleset_type_settings.heavy_midround.high = 1
 ruleset_type_settings.heavy_midround.half_range_pop_threshold = 18
 ruleset_type_settings.heavy_midround.full_range_pop_threshold = 26
-ruleset_type_settings.heavy_midround.time_threshold = 90
+ruleset_type_settings.heavy_midround.time_threshold = 90 ##heavies wont come in till 90 minutes on low. 
 ruleset_type_settings.heavy_midround.execution_cooldown_low = 15
 ruleset_type_settings.heavy_midround.execution_cooldown_high = 20
 ruleset_type_settings.latejoin.low = 0
@@ -65,11 +65,11 @@ name = "Orange Star"
 min_pop = 0
 weight = 45
 advisory_report = "Advisory Level: <b>Orange Star</b></center><BR>Your sector's advisory level is Orange Star. The Department of Intelligence has decrypted Cybersun communications suggesting a high likelihood of attacks on Nanotrasen assets within the Spinward Sector. Stations in the region are advised to remain highly vigilant for signs of enemy activity and to be on high alert."
-ruleset_type_settings.roundstart.low = 1
-ruleset_type_settings.roundstart.high = 2
+ruleset_type_settings.roundstart.low = 1 ##why leave this at possibility of 1 only? Two reasons. Its ""low""-to medium" and this opens the chance of a heavy rule such as revs or cult being the sole round start which could be fun
+ruleset_type_settings.roundstart.high = 3
 ruleset_type_settings.roundstart.half_range_pop_threshold = 18
 ruleset_type_settings.roundstart.full_range_pop_threshold = 22
-ruleset_type_settings.light_midround.low = 1
+ruleset_type_settings.light_midround.low = 2
 ruleset_type_settings.light_midround.high = 3
 ruleset_type_settings.light_midround.half_range_pop_threshold = 18
 ruleset_type_settings.light_midround.full_range_pop_threshold = 22
@@ -97,7 +97,7 @@ min_pop = 25
 weight = 15
 advisory_report = "Advisory Level: <b>Red Star</b></center><BR>Your sector's advisory level is Red Star. Multiple communications signals in your sector have been intercepted, with partial success in decryption. Analysis combined with information passed to us by GDI suggests a high amount of enemy activity in the sector, indicative of impending attacks. Remain on high alert and vigilant against any potential threats."
 ruleset_type_settings.roundstart.low = 2
-ruleset_type_settings.roundstart.high = 3
+ruleset_type_settings.roundstart.high = 4
 ruleset_type_settings.roundstart.half_range_pop_threshold = 15
 ruleset_type_settings.roundstart.full_range_pop_threshold = 23
 ruleset_type_settings.light_midround.low = 2
@@ -127,7 +127,7 @@ name = "Black Orbit"
 min_pop = 25
 weight = 1
 advisory_report = "Advisory Level: <b>Black Orbit</b></center><BR>Your sector's advisory level is Black Orbit. Multiple jamming signals in your region limit intelligence and render traditional classifications inapplicable.  Analysis suggests a mask to cover a large scale mobilisation in the region, or multiple significant independent threats.  Credible information passed to us by GDI suggests that the Syndicate is preparing to mount a major concerted offensive on Nanotrasen assets in the Spinward Sector to cripple our foothold there. All stations should remain on high alert and prepared to defend themselves."
-ruleset_type_settings.roundstart.low = 2
+ruleset_type_settings.roundstart.low = 3
 ruleset_type_settings.roundstart.high = 4
 ruleset_type_settings.roundstart.half_range_pop_threshold = 15
 ruleset_type_settings.roundstart.full_range_pop_threshold = 23
@@ -155,8 +155,8 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 10
 
 ##latejoining starts at 65 minutes. This is to prevent roundstart latejoin antag rolling.
 ["Latejoin Traitor"]
-weight.1 = 10
-weight.2 = 14
+weight.1 = 15
+weight.2 = 15
 weight.3 = 10
 weight.4 = 10
 min_pop = 11
@@ -183,56 +183,56 @@ repeatable = 0
 ["Roundstart Traitor"]
 weight.1 = 20
 weight.2 = 20
-weight.3 = 20
-weight.4 = 21
+weight.3 = 15 ##made lower at higher tiers to encourage heavies to maybe spawn on their own at this tier
+weight.4 = 15
 min_pop = 8
 repeatable_weight_decrease = 6
 
 ["Roundstart Spies"]
-weight.1 = 18
-weight.2 = 18
+weight.1 = 15
+weight.2 = 15
 weight.3 = 10
-weight.4 = 12
+weight.4 = 10
 min_pop = 8
 repeatable_weight_decrease = 4
 
 ["Roundstart Blood Brothers"]
-weight.1 = 18
+weight.1 = 15
 weight.2 = 15
-weight.3 = 7
-weight.4 = 4
+weight.3 = 10
+weight.4 = 10
 min_pop = 8
 repeatable_weight_decrease = 6
 
 ["Roundstart Changeling"]
-weight.1 = 10
-weight.2 = 10
-weight.3 = 10
-weight.4 = 17
+weight.1 = 15
+weight.2 = 15
+weight.3 = 15
+weight.4 = 15
 min_pop = 15
 repeatable_weight_decrease = 3
 
 ["Roundstart Malfunctioning AI"]
 weight.1 = 0
-weight.2 = 3
-weight.3 = 4
+weight.2 = 5
+weight.3 = 5
 weight.4 = 5
 min_pop = 25
 repeatable = 0
 
 ["Roundstart Blood Worm"]
-weight.1 = 3
-weight.2 = 6
-weight.3 = 6
-weight.4 = 6
+weight.1 = 5
+weight.2 = 10
+weight.3 = 10
+weight.4 = 10
 min_pop = 25
 repeatable = 0
 
 ["Roundstart Heretics"]
 weight.1 = 5
 weight.2 = 10
-weight.3 = 10
-weight.4 = 13
+weight.3 = 15
+weight.4 = 20
 min_pop = 25
 min_antag_cap = 1
 max_antag_cap = 2
@@ -240,123 +240,123 @@ repeatable = 0
 
 ["Roundstart Wizard"]
 weight.1 = 0
-weight.2 = 3
-weight.3 = 3
-weight.4 = 10
+weight.2 = 5
+weight.3 = 10
+weight.4 = 20
 min_pop = 25
 repeatable = 0
 
 ["Roundstart Blood Cult"]
 weight.1 = 0
 weight.2 = 3
-weight.3 = 5
-weight.4 = 10
+weight.3 = 10
+weight.4 = 20
 min_pop = 25
 repeatable = 0
 
 ["Roundstart Nukeops"]
 weight.1 = 0
-weight.2 = 3
-weight.3 = 4
-weight.4 = 10
+weight.2 = 5
+weight.3 = 10
+weight.4 = 20
 min_pop = 25
 repeatable = 0
 
 ["Roundstart Revolution"]
 weight.1 = 0
-weight.2 = 3
-weight.3 = 7
-weight.4 = 10
+weight.2 = 5
+weight.3 = 10
+weight.4 = 20
 min_pop = 30
 repeatable = 0
 
 ##lightmid rulesets
 ##the clarity order is min_pop requirement
 ["Midround Obsessed"]
-weight.1 = 8
-weight.2 = 8
-weight.3 = 3
-weight.4 = 1
+weight.1 = 12
+weight.2 = 12
+weight.3 = 5
+weight.4 = 0
 min_pop = 10
 repeatable_weight_decrease = 4
 
 ["Revenant"]
 weight.1 = 10
 weight.2 = 10
-weight.3 = 3
-weight.4 = 2
+weight.3 = 5
+weight.4 = 5
 min_pop = 10
 repeatable = 0
 
 ["Paradox Clone"]
-weight.1 = 10
-weight.2 = 10
-weight.3 = 10
-weight.4 = 10
+weight.1 = 12
+weight.2 = 12
+weight.3 = 5
+weight.4 = 5
 min_pop = 10
 repeatable_weight_decrease = 4
 
 ["Midround Traitor"]
 weight.1 = 20
 weight.2 = 20
-weight.3 = 13
-weight.4 = 13
+weight.3 = 15
+weight.4 = 10
 min_pop = 8
 repeatable_weight_decrease = 5
 
 ["Midround Changeling"]
-weight.1 = 8
-weight.2 = 9
-weight.3 = 9
-weight.4 = 13
+weight.1 = 10
+weight.2 = 10
+weight.3 = 15
+weight.4 = 15
 min_pop = 15
 repeatable_weight_decrease = 4
 
 ["Light Pirates"]
 weight.1 = 5
-weight.2 = 5
-weight.3 = 3
-weight.4 = 5
+weight.2 = 10
+weight.3 = 10
+weight.4 = 10
 min_pop = 15
 repeatable_weight_decrease = 2
 
 ["Nightmare"]
-weight.1 = 3
-weight.2 = 5
-weight.3 = 5
-weight.4 = 7
+weight.1 = 5
+weight.2 = 10
+weight.3 = 15
+weight.4 = 15
 min_pop = 15
 repeatable_weight_decrease = 5
 
 ["Abductors"]
-weight.1 = 1
+weight.1 = 0
 weight.2 = 5
 weight.3 = 5
-weight.4 = 4
+weight.4 = 5
 min_pop = 30
 repeatable_weight_decrease = 3
 
 ["Fugitives"]
-weight.1 = 9
-weight.2 = 9
-weight.3 = 6
-weight.4 = 6
+weight.1 = 10
+weight.2 = 10
+weight.3 = 5
+weight.4 = 5
 min_pop = 20
 repeatable = 0
 
 ["Voidwalker"]
-weight.1 = 3
-weight.2 = 5
-weight.3 = 5
+weight.1 = 5
+weight.2 = 10
+weight.3 = 10
 weight.4 = 10
 min_pop = 25
 repeatable_weight_decrease = 3
 
 ["Midround Blood Worm"]
 weight.1 = 1
-weight.2 = 3
-weight.3 = 4
-weight.4 = 6
+weight.2 = 10
+weight.3 = 10
+weight.4 = 10
 min_pop = 30
 repeatable = 0
 
@@ -364,9 +364,9 @@ repeatable = 0
 ##The reason of why midround mass rulesets exist is because the heavier threats were not being taken.
 ["Mass Traitors"]
 weight.1 = 10
-weight.2 = 11
+weight.2 = 10
 weight.3 = 10
-weight.4 = 7
+weight.4 = 5
 min_pop = 25
 repeatable_weight_decrease = 8
 repeatable = 1
@@ -374,10 +374,10 @@ min_antag_cap = 2
 max_antag_cap = 3
 
 ["Mass Changelings"]
-weight.1 = 1
-weight.2 = 5
-weight.3 = 5
-weight.4 = 6
+weight.1 = 5
+weight.2 = 10
+weight.3 = 10
+weight.4 = 5
 min_pop = 25
 repeatable_weight_decrease = 4
 repeatable = 1
@@ -385,10 +385,10 @@ min_antag_cap = 2
 max_antag_cap = 3
 
 ["Heavy Pirates"]
-weight.1 = 1
-weight.2 = 5
-weight.3 = 3
-weight.4 = 3
+weight.1 = 5
+weight.2 = 10
+weight.3 = 10
+weight.4 = 5
 min_pop = 25
 repeatable_weight_decrease = 4
 
@@ -401,31 +401,31 @@ min_pop = 25
 repeatable_weight_decrease = 4
 
 ["Midround Wizard"]
-weight.1 = 1
-weight.2 = 1
-weight.3 = 3
-weight.4 = 5
+weight.1 = 5
+weight.2 = 5
+weight.3 = 10
+weight.4 = 10
 min_pop = 25
 repeatable_weight_decrease = 2
 
 ["Midround Nukeops"]
-weight.1 = 1
-weight.2 = 1
-weight.3 = 2
-weight.4 = 5
+weight.1 = 5
+weight.2 = 5
+weight.3 = 10
+weight.4 = 10
 min_pop = 25
 repeatable = 0
 
 ["Blob"]
-weight.1 = 1
-weight.2 = 2
-weight.3 = 3
-weight.4 = 3
+weight.1 = 5
+weight.2 = 5
+weight.3 = 10
+weight.4 = 10
 min_pop = 25
 repeatable_weight_decrease = 3
 
 ["Xenomorph"]
-weight.1 = 8
+weight.1 = 10
 weight.2 = 10
 weight.3 = 10
 weight.4 = 10
@@ -441,15 +441,15 @@ min_pop = 30
 repeatable_weight_decrease = 4
 
 ["Space Ninja"]
-weight.1 = 8
-weight.2 = 8
-weight.3 = 10
-weight.4 = 10
+weight.1 = 5
+weight.2 = 5
+weight.3 = 15
+weight.4 = 15
 min_pop = 25
 repeatable_weight_decrease = 5
 
 ["Midround Malfunctioning AI"]
-weight.1 = 1
+weight.1 = 5
 weight.2 = 5
 weight.3 = 10  
 weight.4 = 10
@@ -457,10 +457,10 @@ min_pop = 25
 repeatable = 0
 
 ["Blob Infection"]
-weight.1 = 1
-weight.2 = 2
-weight.3 = 5
-weight.4 = 5
+weight.1 = 5
+weight.2 = 5
+weight.3 = 10
+weight.4 = 10
 min_pop = 25
 repeatable_weight_decrease = 4
 
