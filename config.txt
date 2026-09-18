@@ -319,7 +319,7 @@ NEW_PLAYER_ALERT_ROLE_ID 1138188190604341308
 #PANIC_BUNKER_INTERVIEW
 
 ## If a player connects during a bunker with less then or this amount of living time (Minutes), we deny the connection
-#PANIC_BUNKER_LIVING 90
+#PANIC_BUNKER_LIVING 45
 
 ## The message the Panic Bunker gives when someone is rejected by it
 ## %minutes% is replaced with PANIC_BUNKER_LIVING on runtime, remove it if you don't want this
