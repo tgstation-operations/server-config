@@ -125,7 +125,7 @@ ruleset_type_settings.latejoin.execution_cooldown_high = 10
 ["High Chaos"]
 name = "Black Orbit"
 min_pop = 25
-weight = 1
+weight = 2
 advisory_report = "Advisory Level: <b>Black Orbit</b></center><BR>Your sector's advisory level is Black Orbit. Multiple jamming signals in your region limit intelligence and render traditional classifications inapplicable.  Analysis suggests a mask to cover a large scale mobilisation in the region, or multiple significant independent threats.  Credible information passed to us by GDI suggests that the Syndicate is preparing to mount a major concerted offensive on Nanotrasen assets in the Spinward Sector to cripple our foothold there. All stations should remain on high alert and prepared to defend themselves."
 ruleset_type_settings.roundstart.low = 3
 ruleset_type_settings.roundstart.high = 4
