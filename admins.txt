@@ -18,6 +18,6 @@ mrmelbert = GameMaster+HeadCoder
 ## Headmins
 dendydoom = HeadAdmin
 xzero314 = HeadAdmin
-dunham = HeadAdmin
+johnhenryeton = HeadAdmin
 
 Omega_DarkPotato = HeadAdmin
