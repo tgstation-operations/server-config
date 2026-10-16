@@ -17,5 +17,5 @@ mrmelbert = GameMaster+HeadCoder
 
 ## Headmins
 omegadarkpotato = HeadAdmin
-xzero314 = HeadAdmin
+noxvs = HeadAdmin
 johnhenryeton = HeadAdmin
