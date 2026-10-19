@@ -86,3 +86,9 @@ KICK_INACTIVE
 
 ## ""temporary"" band-aid fix to stop midround hanging?
 ROUNDS_UNTIL_HARD_RESTART 0
+
+## Headmin decision to test Manuel respawn as different character after 20 minutes dead time
+## 2 = Can respawn if choosing a different character
+ALLOW_RESPAWN 2
+## Respawn delay (deciseconds), which doesn't allow to return to lobby
+RESPAWN_DELAY 18000
