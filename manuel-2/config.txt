@@ -23,7 +23,7 @@ SERVERSQLNAME Manuel-2
 HUB
 
 ## The address shown for the game server in the TGS check command
-PUBLIC_ADDRESS manuel-2.tgstation13.org:1447
+PUBLIC_ADDRESS manuel-2.tgstation13.org:1887
 
 ## The channel announcement configs below do not override the values set in ../config.txt, see the original comment for further explanation
 
