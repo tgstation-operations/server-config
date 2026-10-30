@@ -596,7 +596,7 @@ TTS_NO_WHISPER
 ## TTS SECRETS ARE IN tts_secrets.txt ##
 
 ## The maximum number of concurrent tts http requests that can be made by the server at once.
-TTS_MAX_CONCURRENT_REQUESTS 5
+TTS_MAX_CONCURRENT_REQUESTS 64
 
 ## Add voices to the TTS voice blacklist.
 #TTS_VOICE_BLACKLIST Sans Undertale
