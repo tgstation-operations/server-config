@@ -16,12 +16,6 @@ endmap
 
 # Production-level maps.
 
-map catwalkstation
-	minplayers 25
-	votable
-	feedbacklink https://forums.tgstation13.org/viewtopic.php?p=745280
-endmap
-
 map deltastation
 	minplayers 15
 	votable
